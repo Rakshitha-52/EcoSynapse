@@ -1,0 +1,598 @@
+{
+  "source_pdf": "NRSC_Annual_LULC_Atlas_India_2024.pdf",
+  "pillar_folder": "land_and_ecosystems",
+  "pillar_hint": "land_use",
+  "page_count": 118,
+  "pages": [
+    {
+      "page": 1,
+      "text": " \nG\n\no\n\nl\n \nde\n \nn\n  \nJ\n\nu\n\nb\n \nil\n \ne\n\ne\n\n  5\n * *\nN e\na\ntional\nRe\nY\nm\nS\ne\np\na\na\nr\no\ns\nc e\no\nt\nf\ne\n&\nB r\nS\nE\nid\na\ne\ng\nr\ni\nt\nn\nn\nh\ng\nsing\nCentr\nnrsc\n1974 - 2024\nANNUAL LAND USE AND LAND COVER\nATLAS OF INDIA\nLand Use & Cover Mapping and Monitoring Division\nSoil Resources and Land Use Mapping and Monitoring Group\nNational Remote Sensing Centre\nRemote Sensing Applications Area\nIndian Space Research Organisation\nDept. of Space, Govt. of India\nNATIONAL REMOTE SENSING CENTRE\nBalanagar, Hyderabad - 500 037\nMARCH 2024",
+      "char_count": 556
+    },
+    {
+      "page": 2,
+      "text": "National Remote Sensing Centre\nIndian Space Research Organisation\nDepartment of Space, Government of India\nHyderabad – 500037\nMarch, 2024\ni",
+      "char_count": 139
+    },
+    {
+      "page": 3,
+      "text": "Copyright © NRSC, ISRO, 2024\nNational Remote Sensing Centre\nISRO, Govt. of India\nHyderabad\nReference to this atlas to be made as following\nNRSC (2024). Annual Land Use and Land Cover Atlas of India. Land Use &\nCover Mapping and Monitoring Division, SR&LUM Group, Remote Sensing\nApplications Area, National Remote Sensing Centre, ISRO, Hyderabad. PPEG\nNo. NRSC-RSA-SR & LUMG-LU&CMD-FEB 2024-TR-0002374-V1.0. 115pp.\nii",
+      "char_count": 416
+    },
+    {
+      "page": 4,
+      "text": "NATIONAL REMOTE SENSING CENTRE\nDOCUMENT CONTROL SHEET\n01 Security Classification Unrestricted\n02 Distribution General\n03 Document Version (a)Issue no. 01 (b)Revision & Date -\n04 Document Type Atlas\n05 Document Control No. NRSC-RSA-SR & LUMG-LU&CMD-FEB 2024-TR-0002374-V1.0\nAnnual Land Use and Land Cover Atlas of India\n06 Title\n07 Particulars of Collation Pages - 115 Figures - 42 Charts - 34 References - 13\n08 Author(s) Scientists and Research Scientists from LU&CM Division.\n09 Affiliation of Authors LU&CM Division, SR&LUM Group, Remote Sensing Applications Area, NRSC\nCompiled By: Reviewed By:\nMs. Swastika Mandal, Sci/Eng. ‘SC’ Dr. G S Pujar, Approved By:\nShri. Porchelvan A, Res. Sci. Head, LU&CMD & Dr. K Sreenivas,\n10 Scrutiny Mechanism\nShri. Ronald Singh, Res. Sci. Shri. Rajiv Kumar, DD, RSA A, NRSC\nGroup Head,\nSR&LUMG\n11 Originating Unit LU&CM Division, SR & LUM Group, RSA A\nSponsor(s)/Name &\n12 NNRMS, Indian Space Research Organisation, New BEL Road, Bengaluru.\nAddress\n13 Date of Initiation October, 2023.\n14 Date of Publication March, 2024\nSince 2004-05, NRSC and ISRO have been working on creating national geo-\nspatial database on land use and land cover for the entire country as part of\nthe Natural Resources – Census (NR-CENSUS) initiative of NNRMS\nProgramme of ISRO. The scope and objective of this project is to provide\nnational LULC on an annual basis at 56m resolution (suitable for 1:250,000\nscale). An 18 fold LULC classification system was used for mapping the\nentire country using multi-temporal and multi-sensor data. The broad\nmethodology and steps involved are pre-processing of satellite imagery and\nsubsequent image classification primarily using supervised classification\nwith rule based integration. In addition to year wise LULC, season (Kharif\nAbstract (with and Rabi) and month (August, September, December and February) wise\n15\nKeywords) crop sown area layers are also prepared. Maps prepared from the annual\nLULC, Kharif and Rabi along with distribution of LULC class across various\nstates were presented in the form of images and charts respectively.\nAnalytical findings depicting the dynamics of Land Use and Land Cover\nduring 17 cycles of mapping were presented as graphs. This project's\noutputs are crucial for policy making, monitoring land cover changes,\nmanaging natural resources, and serving as input for climate models and\nother research activities.\nKeywords: LULC, Kharif, Rabi, Double/Triple/Annual Crop, Built-up, Shifting\nCultivation, Wastelands.\niii",
+      "char_count": 2507
+    },
+    {
+      "page": 5,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 6,
+      "text": "FOREWORD\nThe study and analysis of land use and land cover are essential in comprehending\nthe intricate dynamics of the Earth's surface, particularly in an era marked by unprec-\nedented global level changes. Observing and comprehending these transformations\nare realised now as a national imperative. Remote sensing, with its profound capabil-\nity to capture, analyse, and interpret vast expanses of land from a distance, has revo-\nlutionized our perception of Earth’s landscapes. In the Indian context, Land Use and\nLand Cover Mapping is regularly conducted using various satellite resolutions to meet\nthis demand. It is timely to synthesize the knowledge amassed from efforts in this di-\nrection over last decade and a half.\nI am delighted to introduce an Atlas that illustrates the outcomes of a long-term Earth Observation Applica-\ntion programme titled “National Land Use and Land Cover Assessment using Multi-sensor and Multi-\ntemporal Data.” This extensive program, conducted since the 2005-2006 period and spanning seventeen\nmonitoring cycles, aims to assess the manifestation of Land Use and Land Cover patterns tied to the utiliza-\ntion of land resources each year. The information generated from this initiative is invaluable for policymak-\ners, researchers, voluntary bodies, and environmentalists in their planning and decision-making processes.\nThis program was initiated as part of the Natural Resources Census Programme under the National Natural\nResource Management System (NNRMS) of the Indian Space Research Organisation in 2004-05. The ef-\nforts have been led by the National Remote Sensing Centre (previously the National Remote Sensing\nAgency). The analysis incorporated multi-temporal IRS satellite data from the Advanced Wide Field Sensor\n(AWiFS), enabling the assessment of Land Use and Land Cover across eighteen distinct classes annually.\nSignificantly, a substantial portion of these studies was conducted across various ISRO Centres, including\nRegional Remote Sensing Centres, IIRS, and NESAC, underscoring the collaborative national effort.\nAs we navigate an era characterized by rapid environmental changes and complex land use dynamics, this\natlas will serve as a compass, guiding our understanding of land resources and facilitating sustainable de-\nvelopment practices. It is my sincere hope that this atlas will act as a catalyst for informed decision-making,\nfostering responsible stewardship of our planet's invaluable resources.\n(Prakash Chauhan)",
+      "char_count": 2483
+    },
+    {
+      "page": 7,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 8,
+      "text": "PREFACE\nLand, as a finite resource, undergoes constant changes due to processes like rapid\nurbanization, evolving agricultural practices, and growing environmental concerns. The-\nse changes significantly impact the socio-economic fabric and the carrying capacity of\necosystems. The dynamic and intricate nature of Land Use and Land Cover (LULC)\nchange involves a complex interplay between natural processes and multifaceted hu-\nman interactions across social, economic, and ecological fronts. Accurate information\non LULC and its changes is pivotal, forming the foundation for understanding trends\nrelated to national resources and assets, enabling informed decisions towards sustain-\nable growth.\nLand use and land cover maps serve as powerful tools for visualizing LULC changes. They are extensively\nutilized in developing and developed nations to enhance understanding in natural resource management,\nensure food security, guide land use planning, and facilitate water management. The Department of Space\nhas played a significant role in mapping the nation's assets through the National Natural Resources Man-\nagement System (NNRMS). A national initiative to create land use and land cover data at a resolution of 56\nmeters commenced from the agricultural year 2004-05. Over the past 17 years, this project has consistently\ngenerated LULC data layers annually. These layers have been extensively utilized by various governmen-\ntal, non-governmental, and academic entities, aligning with national commitments and scientific objectives,\nas well as governing aspects.\nThis atlas presents the noteworthy outcomes of the ISRO-DOS efforts in mapping and monitoring the coun-\ntry’s land use and land cover dynamics over the past 17 years. A particular emphasis was placed on pre-\nparing crop sown areas in three seasons, influenced by factors such as irrigation infrastructure, rainfall, and\nresidual moisture available.\nI extend my heartfelt gratitude to all those who contributed to the creation of this atlas, acknowledging their\nsteadfast dedication and unwavering perseverance in advancing our understanding of land use and land\ncover dynamics. May this atlas serve as an inspiration for further exploration, research, and proactive\nmeasures aimed at preserving the beauty and integrity of our landscapes for generations to come.\n(K. Sreenivas)",
+      "char_count": 2345
+    },
+    {
+      "page": 9,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 10,
+      "text": "ACKOWLEDGEMENT\nEffort of continuing study of this nature aiming to understand and report national level spatial patterns using\nremote sensing over almost two decades is primarily due to persistent support given by highest level of\nleadership of our esteemed organisation. We would like to express sense of deep gratitude to Shri. P Somnath,\nChairman, ISRO for supporting this pivotal programme serving varied interests of natural resource management\nin the country.\nWe are also grateful to Dr Prakash Chauhan, Director, NRSC for his keen interest in the theme and constant\nguidance and encouragement for the continuation of this study. We would like to thank continuous support and\ntimely directives given by Dr Shantanu Bhatawdekar, Scientific Secretary, ISRO in carrying out Land Cover\nmapping studies.\nThanks are due to encouragement and advise provided by Dr Vinod Kumar , Associate Director, NRSC during\nthe execution of this long term studies.\nNRSC Team also would like to thank Directors of Forest Survey of India for sharing the Forest Cover Database\nfor each of the relevant cycle of mapping. Kind cooperation and gesture of sharing extended is noteworthy.\nSupport given by the leadership at each of Regional Remote Sensing Centres during this long standing\nendeavour in terms of facilitating the study and enabling quality and scheduled deliveries are hereby\nacknowledged.\nRole of NRSC Data Centre and Data Processing Area in providing Remote Sensing Dataset for each cycle is of\nparamount significance in this endeavour. We would like to acknowledge leadership for various value chains\nprevailed with Data Centre as well as Data Processing Area, NRSC are wholeheartedly acknowledged for their\ncommitted support and timely delivery of datasets. Support provided by Map Records facility in terms of valuable\nspatial reference for this project related information system is also acknowledged herewith.\nSuch an effort of studies spanning over eighteen years are not possible without the cooperation, guidance and\nappropriate support of various Areas/Groups/Divisions/Sections/Facilities of NRSC. We would like to express\nheartfelt gratitude to relevant members of all entities.\nAnnual LULC Study Team\nix",
+      "char_count": 2210
+    },
+    {
+      "page": 11,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 12,
+      "text": "Table of Contents\nChapter Content Page No\n1 Introduction 1\n1.1 Background 1\n1.2 Project Overview 2\n1.3 Objective 3\n1.4 Deliverables 3\n2 Study Area 3\n3 Methodology 5\n3.1 Data Used 6\n3.2 Data Pre-Processing 6\n3.3 Classification System 7\n3.3.1 Built-up Land 7\n3.3.2 Crop Land 7\n3.3.3 Current Fallow Land 8\n3.3.4 Plantation/Orchard 8\n3.3.5 Woodland 9\n3.3.6 Littoral/Swamp/Mangroves 9\n3.3.7 Grassland Land 9\n3.3.8 Shifting Cultivation 10\n3.3.9 Wastelands 10\n3.3.10 Rann 10\n3.3.11 Water Bodies 10\n3.3.12 Snow Covered / Glacial areas 11\n4 Maps & Statistics 13\n5 Results and Analysis 83\n5.1 Analytical Observations 83\n5.2 Analysis of Built-up Land Trends 83\n5.3 Analysis of Double/Triple/Annual Crop Trends 84\n5.4 State level Trends for Double/Triple/Annual Crop 85\nxi",
+      "char_count": 760
+    },
+    {
+      "page": 13,
+      "text": "5.5 Trend Analysis between Shifting Cultivation and Woodland 87\nConclusion 88\nReferences 91\nAnnexure I 93\nAnnexure II 95\nxii",
+      "char_count": 124
+    },
+    {
+      "page": 14,
+      "text": "List of Figures\nSl No Content Page\nStudy Area Map 4\nFigure 1\nMethodology Flow Chart 5\nFigure 2\nLULC map 2005-06 14\nFigure 3\nCrop map 2005-06 15\nFigure 4\nLULC map 2006-07 18\nFigure 5\nCrop map 2006-07 19\nFigure 6\nLULC map 2007-08 22\nFigure 7\nCrop map 2007-08 23\nFigure 8\nLULC map 2008-09 26\nFigure 9\nCrop map 2008-09 27\nFigure 10\nLULC map 2009-10 30\nFigure 11\nCrop map 2009-10 31\nFigure 12\nLULC map 2010-11 34\nFigure 13\nCrop map 2010-11 35\nFigure 14\nLULC map 2011-12 38\nFigure 15\nCrop map 2011-12 39\nFigure 16\nLULC map 2012-13 42\nFigure 17\nCrop map 2012-13 43\nFigure 18\nLULC map 2013-14 46\nFigure 19\nCrop map 2013-14 47\nFigure 20\nLULC map 2014-15 50\nFigure 21\nCrop map 2014-15 51\nFigure 22\nLULC map 2015-16 54\nFigure 23\nCrop map 2015-16 55\nFigure 24\nLULC map 2016-17 58\nFigure 25\nCrop map 2016-17 59\nFigure 26\nLULC map 2017-18 62\nFigure 27\nCrop map 2017-18 63\nFigure 28\nLULC map 2018-19 66\nFigure 29\nxiii",
+      "char_count": 902
+    },
+    {
+      "page": 15,
+      "text": "Crop map 2018-19 67\nFigure 30\nLULC map 2020-21 70\nFigure 31\nCrop map 2020-21 71\nFigure 32\nLULC map 2021-22 74\nFigure 33\nCrop map 2021-22 75\nFigure 34\nLULC map 2022-23 78\nFigure 35\nCrop map 2022-23 79\nFigure 36\nLong term trends of Built-up Land across states over annual mapping 83\nFigure 37\ncycle\nContribution of Different Land Covers to Built-up extents between First 84\nFigure 38\n(2005-06) and Seventeenth (2022-23) Cycles of Annual LULC Mapping\nLong term Trends of Double/Triple/Annual crop and Fallow Land over 85\nFigure 39\nAnnual mapping cycles at national level\nLong term trends of Double/Triple/Annual crop land across states over 86\nFigure 40\nannual mapping cycle\nLong term trends of Current Fallow Land across states over annual 87\nFigure 41\nmapping cycle\nRelationship of Shifting Cultivation with Woodland cover extents over 88\nFigure 42\nAnnual mapping cycles (Each point represents a mapping cycle)\nxiv",
+      "char_count": 913
+    },
+    {
+      "page": 16,
+      "text": "List of Charts\nChart No Title Page\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 1 16\nIndian States with TGA greater than 43 L ha (2005-2006)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 2 17\nIndian States with TGA less than 43 L ha (2005-2006)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 3 20\nIndian States with TGA greater than 43 L ha (2006-2007)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 4 21\nIndian States with TGA less than 43 L ha (2006-2007)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 5 24\nIndian States with TGA greater than 43 L ha (2007-2008)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 6 25\nIndian States with TGA less than 43 L ha (2007-2008)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 7 28\nIndian States with TGA greater than 43 L ha (2008-2009)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 8 29\nIndian States with TGA less than 43 L ha (2008-2009)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 9 32\nIndian States with TGA greater than 43 L ha (2009-2010)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 10 33\nIndian States with TGA less than 43 L ha (2009-2010)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 11 36\nIndian States with TGA greater than 43 L ha (2010-2011)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 12 37\nIndian States with TGA less than 43 L ha (2010-2011)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 13 40\nIndian States with TGA greater than 43 L ha (2011-2012)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 14 41\nIndian States with TGA less than 43 L ha (2011-2012)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 15 44\nIndian States with TGA greater than 43 L ha (2012-2013)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 16 45\nIndian States with TGA less than 43 L ha (2012-2013)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 17 48\nIndian States with TGA greater than 43 L ha (2013-2014)\nxv",
+      "char_count": 2248
+    },
+    {
+      "page": 17,
+      "text": "Distribution of Class-wise Land Use & Land Cover Extents Across\nChart 18 49\nIndian States with TGA less than 43 L ha (2013-2014)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 19 52\nIndian States with TGA greater than 43 L ha (2014-2015)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 20 53\nIndian States with TGA less than 43 L ha (2014-2015)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 21 56\nIndian States with TGA greater than 43 L ha (2015-2016)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 22 57\nIndian States with TGA less than 43 L ha (2015-2016)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 23 60\nIndian States with TGA greater than 43 L ha (2016-2017)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 24 61\nIndian States with TGA less than 43 L ha (2016-2017)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 25 64\nIndian States with TGA greater than 43 L ha (2017-2018)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 26 65\nIndian States with TGA less than 43 L ha (2017-2018)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 27 68\nIndian States with TGA greater than 43 L ha (2018-2019)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 28 69\nIndian States with TGA less than 43 L ha (2018-2019)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 29 72\nIndian States with TGA greater than 43 L ha (2020-2021)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 30 73\nIndian States with TGA less than 43 L ha (2020-2021)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 31 76\nIndian States with TGA greater than 43 L ha (2021-2022)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 32 77\nIndian States with TGA less than 43 L ha (2021-2022)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 33 80\nIndian States with TGA greater than 43 L ha (2022-2023)\nDistribution of Class-wise Land Use & Land Cover Extents Across\nChart 34 81\nIndian States with TGA less than 43 L ha (2022-2023)\nxvi",
+      "char_count": 2220
+    },
+    {
+      "page": 18,
+      "text": "Acronyms\nAWiFS Advanced Wide Field Sensor\nDEM Digital Elevation Model\nDN Digital Number\nDOS Department of Space\nFAO Food and Agriculture Organization\nISRO Indian Space Research Organisation\nLULC Land Use and Land Cover\nNASA National Aeronautics and Space Administration\nNGOs Non-Governmental Organizations\nNICES National Information System for Climate Sciences\nNNRMS National Natural Resource Management System\nNRR Natural Resource Repository\nNRSC National Remote Sensing Centre\nSAR Synthetic Aperture Radar\nSDG’s Sustainable Development Goals\nSRTM Shuttle Radar Topography Mission\nTOA Top of Atmosphere\nD/T/A Crop Double/Triple/Annual Crop\nUNESCO United Nations Educational, Scientific and Cultural Organization\nxvii",
+      "char_count": 717
+    },
+    {
+      "page": 19,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 20,
+      "text": "Executive Summary\nLand use and land cover monitoring is the essential practice of observing, assessing, and\nrecording the transformations that occur on Earth's surface. This systematic examination\nof how the land is utilized and its associated characteristics offers invaluable insights into\nthe evolving dynamics of our environment. From urban development to agricultural\nexpansion and natural resource management, understanding these changes is pivotal\nfor informed decision-making, sustainable planning and effective environmental\nconservation. Land Use and Land Cover (LULC) analysis stands as a pivotal facet for the\nmeticulous assessment of natural resources and systematic planning at periodic\nintervals. Capitalizing on the potential of Remote Sensing data, the National Remote\nSensing Centre (NRSC) annually undertakes a comprehensive national-level Land Use\nand Land Cover project as part of its contributions to the National Natural Resource\nManagement System since year 2005-06 onwards. The primary objectives of this\nendeavor encompass the following: 1) Expedited evaluation of the National-Level Annual\nLULC leveraging multi-temporal and multi-sensor satellite data, 2) Compilation of crop\ndata for the Kharif and Rabi seasons upon their culmination, and 3) Generation of\nderivative products essential for the programme of National Information System for\nClimate & Environment Studies (NICES). To achieve these objectives, NRSC has\nformulated a rigorous land use classification framework encompassing 18 distinct classes\nfor mapping the National LULC at 56m resolution commensurate with 1: 250,000 sacle.\nMulti-temporal and multi-sensor satellite imagery undergoes meticulous pre-processing\nto establish surface reflectance, followed by classification through the implementation\nof a diverse array of semi-automated rule-based techniques. The outcome of this project\nencompasses preparation of geo-spatial dataset on 56m resolution 1) Annual National\nLand Use and Land Cover data for India, 2) Annual Kharif and Rabi crop data, 3) Monthly\nKharif sown area for August and September, 4) Monthly Rabi sown area for December\nand February, and 5) Reprocessed LULC inputs requisite for NICES and meteorological\nforecasting models.\nxix",
+      "char_count": 2242
+    },
+    {
+      "page": 21,
+      "text": "Commencing its journey in 2005-06 and persevering till the present fiscal year 2022-23,\nthe project has completed 17 annual cycles of LULC and seasonal crop assessment. These\ndatasets are visually represented in the form of maps, and the distribution of classes\nwithin each Indian state is also presented graphically. These long-term temporal datasets\nassume paramount significance in a myriad of research and planning ventures.\nConducting an exhaustive analysis of 17 cycles of Land Use and Land Cover (LULC)\nrecords spanning from 2005 to 2023, significant patterns within major land use and land\ncover classes have been discerned. The analysis unfurls a discernible positive correlation\nbetween crop area and fallow land. Over these cycles, fallow land has consistently\ndwindled, while the crop area has exhibited consistent growth. Over the past 17 years,\nKharif and Rabi cropland has expanded by 46.06% and 35.23% respectively, as fallow land\ndiminished by 45.19%. Additionally, double/triple/annual cropping areas have\nincreased by 82.22% and built-up land shows a modest increase with an overall\ngrowth of 30.77% in this period. Water resource indicated by minimum waterbody\nsurface showed an increase by 146 % over this period. Whereas, shifting\ncultivation representing a subsistence farming practice, demonstrated a gradual\nascent until 2016-17, after which it witnessed a decline. These findings hold profound\nrelevance for the formulation of development programs, monitoring land\ncover dynamics, natural resource management, and fostering research across\nvarious governmental departments.\nxx",
+      "char_count": 1602
+    },
+    {
+      "page": 22,
+      "text": "Annual Land Use Land Cover Atlas of India\n1. Introduction\n1.1 Background\nIn order to make decisions, a contemporary country like India with a diverse flora and\nfauna has to have access to adequate information on a number of complicated,\ninterrelated areas of its activities. Land Use and Land Cover is one such outcome of\ncomplex interrelationship between human and earth development process. Although\nthe terms “Land Use” and “Land Cover” are often used interchangeably, their actual\nmeanings are quite distinct. Land cover is the physical manifestation of these relationship\nwhereas land use refers to the purpose the land serves, for example agriculture,\nsettlements, mining etc.\nAccording to Food and Agriculture Organization (FAO), the land use is defined as the\ntotal of arrangement activities and inputs that people undertake in certain land cover\ntypes. Land cover refers to observed physical and biological cover of the earth’s land.\nLand is covered by various forms such as vegetation, grassland, scrubs, water bodies,\nbare soil etc. As the country works to address the issues like haphazard, uncontrolled\ndevelopment, declining environmental quality, loss of prime agricultural lands,\ndestruction of significant wetlands and loss of aquatic and wildlife habitat, knowledge of\naccurate and current land use data has become more crucial. Reliable information about\nland usage is essential for governmental and commercial organizations, to understand\nwhat is happening and to formulate effective strategies for their own future actions.\nThe classification of land use and cover, based on remote sensing data is crucial for\nunderstanding and managing our changing environment. Remote sensing data offers\nseveral advantages for this task. Satellite sensors capture data across various spectral\nbands, enabling the identification of different land cover types based on their unique\nspectral signatures. This capability facilitates to discriminate between different land\nfeatures and creation of accurate land cover maps, which are vital for urban planning,\nresource management, and environmental monitoring. Remote sensing data can be\nacquired at regular intervals, enabling temporal analysis by comparing multiple images\ntaken over time, land cover changes can be detected, such as deforestation, urban\nexpansion, or agricultural shifts. These temporal datasets enable the assessment of land\nNational Remote Sensing Centre, ISRO 1 | P age",
+      "char_count": 2444
+    },
+    {
+      "page": 23,
+      "text": "Annual Land Use Land Cover Atlas of India\nuse dynamics and the evaluation of the effectiveness of land management policies and\npractices. Moreover, remote sensing data provides valuable ancillary information for land\nuse and cover classification.\nThe framework or approach used to uniformly categories and give labels to various land\ncover or land use types based on the examination of remote sensing data is referred to\nas land use and cover classification system (Anderson, et al. 1976). The choice of\nclassification system depends on the individual application and analytic goals. There are\nmany classification systems used in remote sensing. The classification system for remote\nsensing imagery provides a structured framework for analyzing and categorizing land\ncover or land use types based on the spectral information captured by remote sensing\nsensors. These systems enable a better understanding of the Earth's surface, support\ndecision-making processes, and facilitate the monitoring and management of natural\nresources. Overall, land use and land cover data are versatile resources that support a\nwide range of applications, including urban planning, environmental monitoring,\nagriculture, natural resource management, climate change analysis, risk assessment, and\npolicy development. The recent National Geospatial Policy in The Gazette of India on\nDecember 28, 2022 (CG- DL-E-28122022-241463) has adopted 14 National Fundamental\nGeospatial Data Themes for the development of the country’s integrated Geospatial\nInfrastructure and will support the Sustainable Development Goals (SDGs). “Land Cover\nand Land Use” is listed as one of the National Fundamental Geospatial Data Themes.\nDepartment of Space (National Remote Sensing Centre) along with the Ministry of\nEnvironment, Forest & Climate Change (Forest Survey of India) are identified as the nodal\nministry/department for creating Land Cover and Land Use theme.\n1.2 Project Overview\nConsidering the potential of Remote Sensing satellite data a national project on creating\nNational Level Land Use/ Land Cover on annual basis is taken up as a part of Natural\nResource Census (NRC) activity under National Natural Resource Management System\n(NNRMS) of Department of Space (DOS), Government of India, with an objective to\nundertake “Rapid assessment of National Level LULC on 1:250,000 scale using Multi-\ntemporal AWiFS data starting from the year 2004-05”. In the subsequent cycles, Multi-\nsensor satellite data are also used as a substitute for AWiFS data in the clouded region\n2 | P age National Remote Sensing Centre, ISRO",
+      "char_count": 2588
+    },
+    {
+      "page": 24,
+      "text": "Annual Land Use Land Cover Atlas of India\nand to improve the classification accuracy. An 18-fold LULC classification system suitable\nfor creating LULC for the entire country is adopted in this project. Final output product is\nin raster format and are being disseminated among various users, using Bhuvan Web\nportal. So for 17 cycle of National LULC along with seasonal (Kharif and Rabi) and monthly\n(August, September, December and February) crop sown area have been done. Theses\noutput products are being utilized for many national and regional level research activities\nunder taken by various government organisations, academic institutions, NGOs,\nindividuals etc.\n1.3 Objective\nMajor objectives of this project are as follows\n Rapid assessment of National Level Annual Land Use Land Cover using multi-\ntemporal satellite data.\n Reporting of Kharif and Rabi seasonal crop area at the end of season.\n Generation of derivative products required for NICES program.\n1.4 Deliverables\nThe following products are the outcome of the project\n Annual National Land Use and Land Cover data for India at 1:250,000 scale with\nstatistics.\n Annual Kharif and Rabi Crop data and statistics.\n Monthly Kharif crop data for August and September with Statistics report.\n Monthly Rabi crop data for December and January with Statistics report.\n Reprocessed LULC inputs required for NICES and weather forecast models.\n2. Study Area\nThe study area comprises of entire India which is located in the southern part of Asian\ncontinent. With nearly 1.4 billion inhabitants, it is the most populated nation in the world\nand the seventh- largest country by land area. The country lies to the north of the equator\nbetween 6°44′N and 35°30′N latitude and 68°7′E. and 97°25′E longitude, with a land area\nof 32,87,260 sq.Km. Its land border measures 15,200km (9,445 miles), and its coastline\nNational Remote Sensing Centre, ISRO 3 | P age",
+      "char_count": 1914
+    },
+    {
+      "page": 25,
+      "text": "Annual Land Use Land Cover Atlas of India\nmeasures 7,516.5 km. India has a range of landscapes starting from the north it is\nbounded by the Himalayan mountain range extends over 2500 Km from Jammu\n&Kashmir to Northeast part of the country. The Indo-Gangetic plains are having high\ndeposits of alluvial soil which are more fertile and suitable for cultivation. The western\npart is covered with the Thar Desert, which is an arid region. The Central Highlands are\ncomposed of three main plateaus – the Malwa Plateau in the west, the Deccan Plateau in\nthe south, (covering most of the Indian peninsula); and the Chota Nagpur Plateau in\nJharkhand towards the east. The Western Coastal Plain is a narrow strip of land\nsandwiched between the Western Ghats and the Arabian, receives the first rainfall in the\nmonsoon season which begins in the mid of June. The Eastern Coastal Plain is a wide\nstretch of land lying between the Eastern Ghats and the Bay of Bengal mainly composed\nof delta suitable for agriculture. The North-Eastern part of India is mostly of hilly terrain\nwith dense evergreen-woodlands. This place receives high to very high rainfall during the\nmonsoons. India is having two offshore islands, Andaman and Nicobar islands in the Bay\nof Bengal and Lakshadweep islands in the Arabian Sea. Coral reefs are present in the large\nextent along the coast of the islands. The Study area map is presented in figure 1.\nFigure 1 - Study area map\n4 | P age National Remote Sensing Centre, ISRO",
+      "char_count": 1489
+    },
+    {
+      "page": 26,
+      "text": "Annual Land Use Land Cover Atlas of India\n3. Methodology\nThe creation of land use and land cover under this project involves the utilization of\nmulti-temporal and multi-sensor satellite data. Prior to classification, requisite pre-\nprocessing is conducted. The classification system employed in this project comprises six\nprimary types and 18 sub-divisions (detailed in annexure –II). Figure 2 illustrates the\ndatasets utilized and the methodology implemented.\nFigure 2- Methodology Flowchart\nNational Remote Sensing Centre, ISRO 5 | P age",
+      "char_count": 539
+    },
+    {
+      "page": 27,
+      "text": "Annual Land Use Land Cover Atlas of India\n3.1 Data Used\nThe key crop seasons of Kharif and Rabi were covered by the multi-temporal satellite\ndata primarily from AWiFS sensor from a series of Resourcesat satellites have been used\nin this experiment acquired between June to May of an agricultural calendar year (Asra,\net al. 2015). In order to fill in the data gaps in overcast regions, additional multispectral,\nmicrowave data from satellites like Landsat and Sentinel 1, sentinel 2A and 2B, SRTM\nDEM, NASA DEM and other sensors are also used to determine topographic factors\n(Brown et al. 1993). The satellite datasets alone are not enough to effectively distinguish\nthe spectrally overlapping land cover constituents; ancillary databases are also required.\nAs legacy data, spatial forest and wasteland data that are available on a national basis are\nemployed. The 1:50,000 scale LULC maps created by NRSC are utilized as supplemental\ndata wherever needed. The ortho-corrected, high resolution satellite data is resampled\nto a resolution of 56 m and utilized as the primary reference data to ensure geometric\ncompatibility. State level maps and zonal statistical analysis are produced using geo-\nreferenced state boundaries and meteorological zones.\n3.2 Data Pre-Processing\nThe image was provided in raw format (digital values were not geometrically corrected),\nhence it requires radiometric and geometric modifications. Two processes made up the\nradiometric correction: (i) sensor calibration (which converted digital numbers into\nradiance values); and (ii) reflectance estimation (which transformed radiance values into\nreflectance values). The various parameters needed for estimating spectral reflectance\nare: maximum and minimum radiances in the satellite sensor bands, mean solar exo-\natmospheric irradiances, image acquisition time, solar angles (zenith and azimuth) and\nmean Earth–Sun distance. Ortho-rectification and TOA correction were carried out onto\nmulti-temporal optical data. From the information, each sensor-specific calibration\nconstants are retrieved and utilized to produce the TOA for the corresponding satellite\ndata (Sreenivas et al. 2015). To obtain a cloud-free mosaic, cloud identification and\nmasking are performed. Slant range to ground range processing is done while using\nmicrowave SAR data. Utilizing the radar equation and the appropriate sensor parameters,\nradiometric calibration was performed to convert the DN value to the backscatter\n6 | P age National Remote Sensing Centre, ISRO",
+      "char_count": 2520
+    },
+    {
+      "page": 28,
+      "text": "Annual Land Use Land Cover Atlas of India\ncoefficient. The proper filters have been used to remove the speckles. These previously\nprocessed optical and microwave data serve as the categorization input.\n3.3 Classification System\nThe land use and land cover classification have been done by employing an 18-fold\nclassification system developed for the project by utilizing multi-temporal and multi-\nsensor satellite data. Brief description of this 18-fold classification system is elucidated as\nfollows.\n3.3.1 Built-up Land\nBuilt- up areas are characterized by substitution of the original (semi-) natural cover or\nwater surface with an artificial, often impervious, cover. This artificial cover is usually\ncharacterized by long cover duration (Di Gregorio and Jensen, 2004). The term \"built-up\narea\" refers to an area with buildings (roofed structures), paved surfaces (roads, parking\nlots), commercial and industrial sites (ports, landfills, quarries, runways), and urban green\nareas (parks, gardens).\n3.3.2 Crop Land\nCrop lands may be defined as those lands which are cultivated to produce food crops\nand related activities. Crop lands are primarily used for production of different type of\ncrops for commercial and consuming purpose. In the classification system used here,\nthere are four classes belongs to the crop land i.e. Kharif, Rabi, Zaid and\nDouble/Triple/Annual crop land.\nKharif Crop– These are areas which are cultivated between June/July to September/\nOctober coinciding with SW monsoon season. It is associated with rain- fed crops under\ndry land farming with limited or no irrigation and areas of rain- fed paddy and other dry\ncrops.\nRabi Crop– These areas are areas cultivated between November / December to February\n/ March. It is associated with areas under assured irrigation irrespective of the source of\nirrigation. However, Rabi cropped areas also occur in rain-fed regions, under residual soil\nmoisture conditions especially in black soil areas with high rainfall during Kharif season.\nNational Remote Sensing Centre, ISRO 7 | P age",
+      "char_count": 2056
+    },
+    {
+      "page": 29,
+      "text": "Annual Land Use Land Cover Atlas of India\nZaid Crop – These are the areas that are cropped April - May (summer) which are mostly\nassociated with irrigated areas with fertile soils, confined to plains/delta areas.\nDouble Crop/Triple/Annual Crop– Double/Triple crop land are the area where crops are\nsown and harvested twice/thrice in one crop year. Annual crop are perennial and grow\nthroughout the year such as sugarcane.\n3.3.3 Current Fallow Land\nAn agricultural system with an alternation between a cropping period of several years\nand a fallow period (Ruthenberg,1980). These are the lands, which are taken up for\ncultivation but are temporarily uncultivated, un-cropped for one or more season. Due to\ndrought or inadequate rainfall cropland areas may get converted into fallow land for a\nparticular year.\n3.3.4 Plantation/Orchard\nThese are the regions where tree crops have been planted in agriculture land using\nagricultural management methods. Plantation/Orchard also comprise the regions of\nland use systems and practises where, for ecological and financial reasons, the cultivation\nof herbs, shrubs, and vegetable crops is purposefully combined with agricultural crops,\ntypically in irrigation settings. These areas can be distinguished from agricultural land,\nPlantation/Orchard may also includes as follows:-\n Permanent commercial crops - Coffee, mulberry, tea, rubber etc., which are\nnormally grown in the hilly regions and are closely associated with forest cover.\n Abandoned orchards which still preserve characteristic alignments.\n Fruit, orchards of apples, pears, plums, apricots, peaches, cherries, figs etc.,\n Ligneous crops - Chestnut, walnut, almond, hazel, pistachio groves.\n8 | P age National Remote Sensing Centre, ISRO",
+      "char_count": 1746
+    },
+    {
+      "page": 30,
+      "text": "Annual Land Use Land Cover Atlas of India\n3.3.5 Woodland\nThe term woodland is used to refer to land with a tree canopy cover of more than 10\npercent and area of more than 0.5 ha. Woodland are determined both by the presence\nof trees and the absence of other predominant land uses. The trees should be able to\nreach a minimum height of 2m. It consists of three woodland classes i.e. Evergreen /\nSemi-evergreen woodland, deciduous woodland and degraded woodland.\nEvergreen/Semi-evergreen Woodland- This category comprises of trees(>2m tall),\nwhich are predominantly remain green throughout the year. It includes both coniferous\nand tropical broadleaved evergreen species. Semi‐ evergreen is a woodland type that\nincludes a combination of evergreen and deciduous species with the former dominating\nthe canopy cover.\nDeciduous Woodland - These are the woodland types that are predominantly composed\nof tree (>2m tall) species, which shed their leaves once a year. It may also include tree\nclad area with tree cover lying outside the notified forest boundary areas that are\nherbaceous with a woody appearance.\nDegraded Woodland- Land covered with tree species (more than 2m tall) which are\nEvergreen / Deciduous in nature with relatively decreased density of trees.\n3.3.6 Littoral/Swamp/Mangroves\nMangroves- A shrub or tree that grows mainly in coastal saline or brackish water.\nMangroves grow in an equatorial climate, typically along coastlines and tidal rivers\nSwamp– These are wetlands dominated by woody plants. Swamps can be found in a\nvariety of settings, including coastal areas, river deltas, and floodplains.\n3.3.7 Grassland Land\nThese are the areas of natural grass along with other vegetation, predominantly grass‐\nlike plants (Monocots) and non‐grass‐like herbs (except Lantana species which are to be\nclassified as scrub). It includes natural/semi‐natural grass/ grazing lands of Alpine/Sub‐\nAlpine or temperate or sub‐tropical or tropical zones and deserted areas.\nNational Remote Sensing Centre, ISRO 9 | P age",
+      "char_count": 2021
+    },
+    {
+      "page": 31,
+      "text": "Annual Land Use Land Cover Atlas of India\n3.3.8 Shifting Cultivation\nShifting cultivation is a type of agriculture in which plots of woodland are cleared and\ncultivated temporarily, then abandoned while post-disturbance fallow vegetation is\nallowed to freely grow while the cultivator moves on to another plot. The period of\ncultivation is usually terminated when the soil shows signs of exhaustion. The period of\ntime during which the field is cultivated is usually shorter than the period over which the\nland is allowed to regenerate by lying fallow.\nShifting cultivation is a common practice in tropical and subtropical regions, where it is\noften referred to as slash-and-burn agriculture. It is a traditional method of farming that\nhas been practiced for centuries by indigenous peoples. Mostly situated in North-Eastern\nparts of India.\n3.3.9 Wastelands\nWastelands are degraded lands which can be brought under vegetative cover with\nreasonable effort and which is currently underutilized and land which is deteriorating for\nlack of appropriate water and soil management or on account of natural causes. It\nincludes rocky areas, scrub lands, mining dumps, gullied lands, sand dunes etc. (NRSC\n2019).\n3.3.10 Rann\nRann is a large area of salt marsh located in the western India between the Gulf of Kutch\nand the Indus River delta. Rann experience high ambient temperature at one point of\ntime while it gets flooded by both the tidal water ingression and freshwater poured by\nthe seasonal rivers during the monsoon season.\n3.3.11 Water Bodies\nThis category comprises areas with surface water, either impounded in the form of\nreservoirs, lakes, ponds, aquaculture lands etc., or flowing in the form of rivers, canals,\nstreams etc.\nMaximum spread – Water Bodies at their maximum capacity i.e. the maximum extent of\nsurface water immediate after monsoon of the particular year.\n10 | P age National Remote Sensing Centre, ISRO",
+      "char_count": 1922
+    },
+    {
+      "page": 32,
+      "text": "Annual Land Use Land Cover Atlas of India\nMinimum spread – This represents the least water spread in a water body like lakes, tanks,\nreservoirs, rivers, etc..\n3.3.12 Snow Covered / Glacial areas\nDue to a confluence of environmental variables, certain lands maintain a permanent layer\nof snow or ice that prevents them from melting during the summer. As a result, they\ncontinue to exist as rather stable landscape features. Adjacent lands most commonly will\nbe of Water, Wetland, Barren Land, or Tundra, with their common boundaries being\ndistinguished from the satellite data acquired in summer.\nNational Remote Sensing Centre, ISRO 11 | P age",
+      "char_count": 643
+    },
+    {
+      "page": 33,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 34,
+      "text": "Annual Land Use Land Cover Atlas of India\n4. Maps & Statistics\nExtant Section illustrates the outputs from the long term analysis of land use land cover\ndatasets in terms of National level maps and related statistical quantities. Outputs are\narranged as Annual LULC map for 18 classes followed by kharif and rabi season maps for\nentire country. It is followed by histograms of state-wise land cover statistics arranged in\ndescending order of TGA of states. These TGA have been categorized in to four levels\nviz., > 130 L ha, 43-130 L ha, 1-43 L ha and < 1 L ha, to facilitate inter-comparison of land\ncover distribution.\nPatterns of land cover as well as seasonal crop manifestation and trends of cover\ncategory quantities across and within states provide distinct insights of each of\nstakeholder groups employing this information for planning, research, analysis,\nmodeling as well as outreach as analytical or reference data.\nNational Remote Sensing Centre, ISRO 13 | P age",
+      "char_count": 974
+    },
+    {
+      "page": 35,
+      "text": "Annual Land Use Land Cover Atlas of India\n14 | P age National Remote Sensing Centre, ISRO\n60-5002\npam\nCLUL\n-3\nerugiF",
+      "char_count": 116
+    },
+    {
+      "page": 36,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 15 | P age\n60-5002\npam\nporC-4\nerugiF",
+      "char_count": 115
+    },
+    {
+      "page": 37,
+      "text": "Annual Land Use Land Cover Atlas of India\n16 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)6002-5002(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-1\ntrahC",
+      "char_count": 933
+    },
+    {
+      "page": 38,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 17 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)6002-5002(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-2\ntrahC",
+      "char_count": 885
+    },
+    {
+      "page": 39,
+      "text": "Annual Land Use Land Cover Atlas of India\n18 | P age National Remote Sensing Centre, ISRO\n70-6002\npam\nCLUL\n-5\nerugiF",
+      "char_count": 116
+    },
+    {
+      "page": 40,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 19 | P age\n70-6002\npam\nporC\n-6\nerugiF",
+      "char_count": 116
+    },
+    {
+      "page": 41,
+      "text": "Annual Land Use Land Cover Atlas of India\n20 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)7002-6002(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-3\ntrahC",
+      "char_count": 933
+    },
+    {
+      "page": 42,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 21 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)7002-6002(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-4\ntrahC",
+      "char_count": 885
+    },
+    {
+      "page": 43,
+      "text": "Annual Land Use Land Cover Atlas of India\n22 | P age National Remote Sensing Centre, ISRO\n80-7002\npam\nCLUL\n-7\nerugiF",
+      "char_count": 116
+    },
+    {
+      "page": 44,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 23 | P age\n80-7002\npam\nporC\n-8\nerugiF",
+      "char_count": 116
+    },
+    {
+      "page": 45,
+      "text": "Annual Land Use Land Cover Atlas of India\n24 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)8002-7002(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-5\ntrahC",
+      "char_count": 933
+    },
+    {
+      "page": 46,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 25 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0 21.0 80.0 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)8002-7002(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-6\ntrahC\nah.L ni aerA\n61 41 21 01 8 6 4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\n.ah.L ni aerA",
+      "char_count": 878
+    },
+    {
+      "page": 47,
+      "text": "Annual Land Use Land Cover Atlas of India\n26 | P age National Remote Sensing Centre, ISRO\n90-8002\npam\nCLUL\n-9\nerugiF",
+      "char_count": 116
+    },
+    {
+      "page": 48,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 27 | P age\n90-8002\npam\nporC\n-01\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 49,
+      "text": "Annual Land Use Land Cover Atlas of India\n28 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001 08 06 04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)9002-8002(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-7\ntrahC\n.ah.L ni aerA\n07 06 05 04 03 02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\nah.L ni aerA",
+      "char_count": 924
+    },
+    {
+      "page": 50,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 29 | P age\nah.L\n34-\n1\nneewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)9002-8002(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-8\ntrahC",
+      "char_count": 885
+    },
+    {
+      "page": 51,
+      "text": "Annual Land Use Land Cover Atlas of India\n30 | P age National Remote Sensing Centre, ISRO\n01-9002\npam\nCLUL\n-11\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 52,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 31 | P age\n01-9002\npam\nporC\n-21\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 53,
+      "text": "Annual Land Use Land Cover Atlas of India\n32 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)0102-9002(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-9\ntrahC",
+      "char_count": 933
+    },
+    {
+      "page": 54,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 33 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)0102-9002(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-01\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 55,
+      "text": "Annual Land Use Land Cover Atlas of India\n34 | P age National Remote Sensing Centre, ISRO\n11-0102\npam\nCLUL\n-31\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 56,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 35 | P age\n11-0102\npam\nporC\n-41\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 57,
+      "text": "Annual Land Use Land Cover Atlas of India\n36 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001 08 06 04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)1102-0102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-11\ntrahC\n.ah.L ni aerA\n07 06 05 04 03 02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\nah.L ni aerA",
+      "char_count": 925
+    },
+    {
+      "page": 58,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 37 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0 21.0 80.0 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)1102-0102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-21\ntrahC\nah.L ni aerA\n61 41 21 01 8 6 4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\n.ah.L ni aerA",
+      "char_count": 879
+    },
+    {
+      "page": 59,
+      "text": "Annual Land Use Land Cover Atlas of India\n38 | P age National Remote Sensing Centre, ISRO\n21-1102\npam\nCLUL\n-51\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 60,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 39 | P age\n21-1102\npam\nporC\n-61\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 61,
+      "text": "Annual Land Use Land Cover Atlas of India\n40 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)2102-1102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-31\ntrahC",
+      "char_count": 934
+    },
+    {
+      "page": 62,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 41 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)2102-1102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-41\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 63,
+      "text": "Annual Land Use Land Cover Atlas of India\n42 | P age National Remote Sensing Centre, ISRO\n31-2102\npam\nCLUL\n-71\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 64,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 43 | P age\n31-2102\npam\nporC\n-81\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 65,
+      "text": "Annual Land Use Land Cover Atlas of India\n44 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001 08 06 04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)3102-2102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-51\ntrahC\n.ah.L ni aerA\n07 06 05 04 03 02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\nah.L ni aerA",
+      "char_count": 925
+    },
+    {
+      "page": 66,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 45 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)3102-2102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-61\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 67,
+      "text": "Annual Land Use Land Cover Atlas of India\n46 | P age National Remote Sensing Centre, ISRO\n41-3102\npam\nCLUL\n-91\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 68,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 47 | P age\n41-3102\npam\nporC\n-02\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 69,
+      "text": "Annual Land Use Land Cover Atlas of India\n48 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001 08 06 04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)4102-3102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-71\ntrahC\n.ah.L ni aerA\n07 06 05 04 03 02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\nah.L ni aerA",
+      "char_count": 925
+    },
+    {
+      "page": 70,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 49 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)4102-3102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-81\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 71,
+      "text": "Annual Land Use Land Cover Atlas of India\n50 | P age National Remote Sensing Centre, ISRO\n51-4102\npam\nCLUL\n-12\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 72,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 51 | P age\n51-4102\npam\nporC\n-22\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 73,
+      "text": "Annual Land Use Land Cover Atlas of India\n52 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)5102-4102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-91\ntrahC",
+      "char_count": 934
+    },
+    {
+      "page": 74,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 53 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0 21.0 80.0 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)5102-4102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-02\ntrahC\nah.L ni aerA\n61 41 21 01 8 6 4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\n.ah.L ni aerA",
+      "char_count": 879
+    },
+    {
+      "page": 75,
+      "text": "Annual Land Use Land Cover Atlas of India\n54 | P age National Remote Sensing Centre, ISRO\n61-5102\npam\nCLUL\n-32\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 76,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 55 | P age\n61-5102\npam\nporC\n-42\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 77,
+      "text": "Annual Land Use Land Cover Atlas of India\n56 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001 08 06 04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)6102-5102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-12\ntrahC\n.ah.L ni aerA\n07 06 05 04 03 02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\nah.L ni aerA",
+      "char_count": 925
+    },
+    {
+      "page": 78,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 57 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)6102-5102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-22\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 79,
+      "text": "Annual Land Use Land Cover Atlas of India\n58 | P age National Remote Sensing Centre, ISRO\n71-6102\npam\nCLUL\n-52\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 80,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 59 | P age\n71-6102\npam\nporC\n-62\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 81,
+      "text": "Annual Land Use Land Cover Atlas of India\n60 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)7102-6102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-32\ntrahC",
+      "char_count": 934
+    },
+    {
+      "page": 82,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 61 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)7102-6102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-42\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 83,
+      "text": "Annual Land Use Land Cover Atlas of India\n62 | P age National Remote Sensing Centre, ISRO\n81-7102\npam\nCLUL\n-72\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 84,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 63 | P age\n81-7102\npam\nporC\n-82\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 85,
+      "text": "Annual Land Use Land Cover Atlas of India\n64 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)8102-7102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-52\ntrahC",
+      "char_count": 934
+    },
+    {
+      "page": 86,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 65 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0 21.0 80.0 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)8102-7102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-62\ntrahC\nah.L ni aerA\n61 41 21 01 8 6 4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\n.ah.L ni aerA",
+      "char_count": 879
+    },
+    {
+      "page": 87,
+      "text": "Annual Land Use Land Cover Atlas of India\n66 | P age National Remote Sensing Centre, ISRO\n91-8102\npam\nCLUL\n-92\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 88,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 67 | P age\n91-8102\npam\nporC\n-03\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 89,
+      "text": "Annual Land Use Land Cover Atlas of India\n68 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)9102-8102(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-72\ntrahC",
+      "char_count": 934
+    },
+    {
+      "page": 90,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 69 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)9102-8102(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-82\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 91,
+      "text": "Annual Land Use Land Cover Atlas of India\n70 | P age National Remote Sensing Centre, ISRO\n12-0202\npam\nCLUL\n-13\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 92,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 71 | P age\n12-0202\npam\nporC\n-23\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 93,
+      "text": "Annual Land Use Land Cover Atlas of India\n72 | P age National Remote Sensing Centre, ISRO\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\n041 021 001\na.\n08\nh L. n\n06\na i e Ar\n04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\n07 06 05\na\n04\nL. h n\n03e\na i Ar\n02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)1202-0202(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-92\ntrahC",
+      "char_count": 934
+    },
+    {
+      "page": 94,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 73 | P age\nah.L\n34-\n1 neewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n& ilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)1202-0202(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-03\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 95,
+      "text": "Annual Land Use Land Cover Atlas of India\n74 | P age National Remote Sensing Centre, ISRO\n22-1202\npam\nCLUL\n-33\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 96,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 75 | P age\n22-1202\npam\nporC\n-43\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 97,
+      "text": "Annual Land Use Land Cover Atlas of India\n76 | P age National Remote Sensing Centre, ISRO\n041 021 001 08 06 04 02 0\nhragsittahhC\nahsidO\nhsedarP\narhdnA\nhkadaL\nakatanraK\ntarajuG\nhsedarP\nrattU\narthsarahaM\nhsedarP\nayhdaM\nnahtsajaR\n)2202-1202(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-13\ntrahC\n.ah.L ni aerA\n07 06 05 04 03 02 01 0\nanayraH\nbajnuP\ndnahkarattU\nlahcamiH\nmassA\ndnahkrahJ\nlahcanurA\nlagneB\ntseW\nrahiB\nanagnaleT\nudanlimaT\nhsedarP\nhsedarP\nah.L ni aerA\nah.L\n031naht\nerom\nAGT\nhtiw\nsetatS\nah.L\n031-\n34\nneewteb\nAGT\nhtiw\nsetatS\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR",
+      "char_count": 925
+    },
+    {
+      "page": 98,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 77 | P age\nah.L\n34-\n1\nneewteb\nAGT\nhtiw\nsetatS\n61 41 21 01a.\nh L.\n8\nn a i\n6\nAr e\n4 2 0\nihleD\naoG\nmikkiS\n&\nnamadnA\narupirT\ndnalagaN\nmaroziM\nrupinaM\nayalahgeM\nalareK\ndnA\nummaJ\nrabociN\nrimhsaK\nah.L\n1\nnaht\nssel\nAGT\nhtiw\nseirotirreT\nnoinU\n42.0 2.0 61.0\na h L.\n21.0n\na i e\n80.0Ar 40.0 0\npeewdahskaL\nhragidnahC\nyrrehcuduP\n&\nilevaH\nragaN\n&\nardaD\nuiD\n&\nnamaD\ndaerpS\nmumixaM-seidoB\nretaW\nnoitavitluC\ngnitfihS\ndnaldooW\ndedargeD\ndrahcrO/noitatnalP\nporC\ndiaZ\npu-tliuB\ndaerpS\nmuminiM-seidoB\nretaW\nsdnaletsaW\nsevorgnaM/pmawS/larottiL\ndnaldooW\nneergreve-imeS/neergrevE\nporC\nlaunnA/elpirT/elbuoD\nporCfirahK\nsaerA\nlaicalG/derevoC\nwonS\nnnaR\ndnalssarG\ndnaldooW\nsuoudiceD\ndnaL\nwollaF\ntnerruC\nporC\nibaR\n)2202-1202(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-23\ntrahC",
+      "char_count": 886
+    },
+    {
+      "page": 99,
+      "text": "Annual Land Use Land Cover Atlas of India\n78 | P age National Remote Sensing Centre, ISRO\n32-2202\npam\nCLUL\n-53\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 100,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 79 | P age\n32-2202\npam\nporC\n-63\nerugiF",
+      "char_count": 117
+    },
+    {
+      "page": 101,
+      "text": "Annual Land Use Land Cover Atlas of India\n80 | P age National Remote Sensing Centre, ISRO\n)3202-2202(\n.ah.L\n34\nnaht\nretaerg\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-33\ntrahC",
+      "char_count": 220
+    },
+    {
+      "page": 102,
+      "text": "Annual Land Use Land Cover Atlas of India\nNational Remote Sensing Centre, ISRO 81 | P age\n)3202-2202(\n.ah.L\n34\nnaht\nssel\nAGT\nhtiw\nsetatS\nnaidnI\nssorcA\nstnetxE\nrevoC\ndnaL\n&\nesU\ndnaL\nesiw-ssalC\nfo\nnoitubirtsiD\n-43\ntrahC",
+      "char_count": 217
+    },
+    {
+      "page": 103,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 104,
+      "text": "Annual Land Use Land Cover Atlas of India\n5.1 Analytical Observations\nTrends in Land Use Land cover categories were examined for all mapping period from\n2005-2023 and the most important characteristics are addressed here. Three major land\ncover types namely Double/Triple/Annual crop (D/T/A crop), Built-up, and Current\nFallow, which shows its significance in agricultural growth, asset expansion and\nuncultivated agricultural land respectively. The state-wise statistics of the above\nmentioned land cover types are illustrated in Fig.37, 40 & 41. Trends are analysed as\nhistograms to understand the long term deviations. Trend analysis has also been\nperformed for Shifting Cultivation with Woodland classes as shown in Fig.42.\n5.2 Analysis of Built-up Land Trends\nBuilt-up is a distinctive cover which represents the growth and economic worth, as the\nexpansion in permanent asset and infrastructure indicating mainly towards a\ndeveloping economy. Trends of built up classes for rapidly growing states (Fig.37)\nappear to be relatively constant with a marginal increase in the area over the period of\ntime. Whereas Madhya Pradesh, Gujarat, Karnataka, West Bengal and Andhra Pradesh\nshow distinct increase in this theme.\n12\n9\n6\n3\n0\nFigure 37- Long term trends of Built-up Land across states over annual mapping cycle\nA comprehensive assessment of land cover patterns across India between the first\n(2005-06) and seventeenth (2022-23) cycles of the Annual Land Use and Land Cover\n(LULC) mapping reveals a consistent increase in built-up area, expanding approximately\nby 25 lakh hectares. This notable transformation underscores the rapid pace of\nurbanization and infrastructure development across the country during this period.\nNational Remote Sensing Centre, ISRO 83 | P age\nah\nL\nni\naerA\n5. Results and Analysis",
+      "char_count": 1810
+    },
+    {
+      "page": 105,
+      "text": "Annual Land Use Land Cover Atlas of India\nSpecific land cover classes contributing to this built-up area expansion is shown in\nFig.38. It points to the fact that about 35 percent of built up is added over 17 years\n(~2.4 percent increase each year) from mentioned covers. Wastelands, encompassing\ndegraded and unproductive lands, contributed significantly to built-up area expansion\nby 12.3 percent. Notably, a substantial percentage of built-up area expansion\noriginated from agricultural land covers, which includes 6.3 percent of double/triple/\nannual crop, 5.3 percent of kharif crop, 3.1 percent of rabi crop, 2.9 percent of\nplantation and 5.8 percent of fallow land.\nWasteland\nDouble crop\nFallow land\nKharif crop\nRabi crop\nPlantation\nPlantation Rabi crop Kharif crop Fallow land Double crop Wasteland\nPercentage 2.9 3.1 5.3 5.8 6.3 12.3\nFigure 38- Contribution of Different Land Covers to Built-up extents between First\n(2005-06) and Seventeenth (2022-23) Cycles of Annual LULC Mapping\n5.3 Analysis of Double/Triple/Annual Crop Trends\nAnalysis reveals fairly strong relation between Double/Triple/Annual crops and Current\nfallow land, when observed at national level. Perspectives from the trends (Fig.39)\n84 | P age National Remote Sensing Centre, ISRO",
+      "char_count": 1258
+    },
+    {
+      "page": 106,
+      "text": "Annual Land Use Land Cover Atlas of India\nreveal a consistent overall increase in the double/triple/annual cropping across the\nannual mapping periods. This observed increase coincides with a concurrent decrease\nin the extent of fallow land cover during these periods. Cropping which covered 710.8 L\nha in 2005-06 period has shown an expansion to an area of about 961.3 L ha in 2022-\n23.Fallow extent was 447.6, which got reduced to 245.3 L ha in 2022-23.\nThe cumulative effect observed can be attributed to increased or improved availability\nof farm inputs such as improved irrigation facilities, market demand, groundwater use,\nenhanced farm nutrition through subsidized fertilisers etc. This trend is highly desirable\nproviding insights into the economic development of agricultural production.\n1000\n800\n600\n400\n200\n0\nFigure 39- Long term Trends of Double/Triple/Annual crop and Fallow Land over\nAnnual mapping cycles at national level\n5.4 State level Trends for Double/Triple/Annual Crop\nState level trends were derived to assess the variation in the cropping area over the\nstudy period. Madhya Pradesh, Uttar Pradesh and Bihar clearly indicate consistently\nincreasing trend of D/T/A crop area, while current fallow for these states has shown\ncommensurate decline (Fig. 40 and 41). Relation between these entities show a typical\ndeclining rate (Fig 42) indicating a gradual reduction of fallow with respect to cropped\nNational Remote Sensing Centre, ISRO 85 | P age\nah.L\nni\naerA\nD/T/A Crop Fallow Land",
+      "char_count": 1504
+    },
+    {
+      "page": 107,
+      "text": "Annual Land Use Land Cover Atlas of India\narea. Whenever these states witnessed higher cropping areas over the study period,\narea under fallow land has shown declining trend.\n160\n140\n120\n100\n80\n60\n40\n20\n0\nFigure 40- Long term trends of Double/Triple/Annual crop land across states over\nannual mapping cycle\nRajasthan and Maharashtra indicated slightly differing trends (Fig 40 and 41) wherein,\nincrease in cropped area was marked by intermittent decline, along with the mixed\nresponse of decrease in current fallow areas. Rajasthan showed initial decrease of area\nunder current fallow, followed by an increase in later years, while in Maharashtra it\nincreased in first four years followed by a decrease.\n86 | P age National Remote Sensing Centre, ISRO\nah\nL\nni\naerA",
+      "char_count": 764
+    },
+    {
+      "page": 108,
+      "text": "Annual Land Use Land Cover Atlas of India\n120\n90\n60\n30\n0\nFigure 41- Long term trends of Current Fallow Land across states over annual mapping\ncycle\n5.5 Trend Analysis between Shifting Cultivation and Woodland\nShifting cultivation also known as Jhum cultivation is an example of primitive way of\nfarming most commonly practised in hilly forested tracts of Eastern and North Eastern\nregion of the country by tribal communities, having traditions of slash and burn\nagriculture. Possibly due to the high demand for food production, there is an increase\nin area under shifting cultivation is observed from last several years. As depicted in the\nillustration (Fig.42) presence of larger spatial extents of shifting cultivation is associated\nwith lesser amount of woodland over the mapping cycles studied (each data point in\nthe graph). Higher strength of relationship (R2=0.684) clearly brings out national level\ntrend over long term period.\nNational Remote Sensing Centre, ISRO 87 | P age\nah\nL\nni\naerA",
+      "char_count": 996
+    },
+    {
+      "page": 109,
+      "text": "Annual Land Use Land Cover Atlas of India\nFigure 42- Relationship of Shifting Cultivation with Woodland cover extents over\nAnnual mapping cycles (Each point represents a mapping cycle)\nConclusion\nSatellite Remote Sensing techniques allow generating reliable and long term\ninformation of Land Use and Land Cover which in turn help to monitor their changes\nperiodically. However, use of legacy spatial database and ancillary data help in\nimproving the results derived from satellite data interpretation. Outcomes of the\nproject over a span of 17 mapping cycles has revealed interesting and valuable insights\nto Indian land cover dynamics which will be of great utility to wide range of\nstakeholders. The Land use and Land Cover data presented in this atlas are very useful\nfor planning, monitoring and development purposes by government planning\ndepartments, institutions involved research activities as well as by NGOs, academics,\netc.\nFollowing are some of the major useful activities:\n Formulation of development programme in the Ministries and Departments like\nAgriculture, Rural Development, Environment and Forest, Water Resources and\nothers.\n Monitoring of dynamic land covers like surface water, forest, wastelands etc.\n88 | P age National Remote Sensing Centre, ISRO",
+      "char_count": 1275
+    },
+    {
+      "page": 110,
+      "text": "Annual Land Use Land Cover Atlas of India\n Climate related impact studies can be done using this mid resolution annual\nLULC data.\n To quantify the type and amount of land available for essential societal needs\nsuch as food, water, energy, etc.\nTrends explored and understood in this study, point towards desirable patterns of\nincrease in the area under crop in the form of double/triple/annual crop and conversion\nof wastelands and current fallow to more productive and preferred land management\npractices. Constraints contributing to the underutilization or incapacity to fully exploit land\nuse potential (fallow/wasteland prevalence), in earlier years seem to have eased out.\nRelation of woodland with Shifting Cultivation also showed higher level of cultivation\nwith reduced woodland cover, which indicates the potential of restoration measures\nthat may steer the reduction of unsustainable practice of slash and burn farming.\nIn the context of fast altering natural resource situations, it is critical to understand the\nchanges occurring on earth surface so as to analyse them and develop decision support\nalternatives to attain sustainable growth. Support to such quantification provides,\nmodelling of land cover changes is significant and can provide critical backup for all\ninternational negotiation related to climate change and resource balancing needs.\nContinuous focus maintained by ISRO-NNRMS initiative of this nature, has resulted in\nNRSC taking further responsibility of providing multisource data based LULC\npreparation catering to the national needs. This also attempts to fulfil the government\npolicy requirements. Analytics brought out from such institutionalised efforts would\nhelp in manoeuvring development trajectories in a more scientific and transparent\nmanner.\nNational Remote Sensing Centre, ISRO 89 | P age",
+      "char_count": 1836
+    },
+    {
+      "page": 111,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 112,
+      "text": "References\nAnderson, J.R., Hardy, E.E., Roach, J.T. and Witmer, Richard E. (1976) A Land Use and Land Cover\nClassification System for Use with Remote Sensor Data. Washington: U.S. Geological Survey\nProfessional Paper. p. 964.\nAsra, M., Prakash, CR, Venkatesh, J., Sreenivas, K., Dwivedi, RS. (2015). Intra-Annual Variations in\nLULC as Derived from Resoucesat-2 AWIFS Multi-Temporal Data. International Journal of Scientific\nEngineering and Technology Research. Volume.04, IssueNo.17, June-2015, Pages: 3209-3212\nBehera, D.K., Singh, R., Satyanarayana, P., Kumar, Rajiv (2023). Pixels in Focus: Deep Learning's\nBreakthrough in Remote Sensing Built-Up Segmentation. 43rd Intl. Congress of Ind. Nat. Cartographic\nAssoc. (INCA). Jodhpur.\nBrown, J.F., Loveland, T.R., Merchant, J.W., Reed, B.C., and Ohlen, D.O., (1993). Using Multisource\nData in Global Land Characterization: Concepts, Requirements, and Methods, Photogrammetric\nEngineering and Remote Sensing, v. 59, no. 6, p. 977-987.\nDi Gregorio, A., and Jansen, L.J.M. (2004). Land Cover Classification System. Classification Concepts\nand User Manual, version 2. Rome: United Nations Food and Agriculture Organization. p.190.\nJensen, J.R.: (2005). Introductory Digital Image Processing A Remote Sensing Perspective, 3rd\nEdition, Prentice Hall, Upper Saddle River, p. 505-512.\nLillesand, T.M., Kiefer, R.W. and C. Jonathan (2015). Remote Sensing and Image Interpretation. 7th\nEdition, New York. John Wiley & Sons: Hoboken. 720 pp.\nMurmu, P., Singh, R., Porchelvan A, Satyanarayana P., Pujar, G.S. (2023). Convolution Neural\nNetworks Based Crop Type Classification Using Spatio-Temporal Remote Sensing Data. . 43rd Intl.\nCongress of Ind. Nat. Cartographic Assoc. (INCA). Jodhpur.\nNagaraja, R., Kumar, Rajiv, Rao, P.K., Ravishankar, G., Saxena, M.R. & Tejaswani, V., (2021). IRS-1C\nApplication in Land Use and Land Cover studies: Indian Experience. Journal of Indian Society of\nRemote Sensing. 49(1):97–109.\nNRSC (2012). User Manual for National Land Use Land Cover Mapping using Multi-temporal Satellite\ndata. Hyderabad, NRSC, ISRO. p.66\nNRSC (2019). Wastelands Atlas of India - 2019. Change Analysis Based on temporal Satellite Data of\n2008-09 and 2015-16). Dept. of Land Resources, MoRD, GOI and National Remote Sensing Centre,\nISRO, GOI. P. 248.\nSreenivas, K., (2015). National Land Use and Land Cover mapping using multi-temporal AWiFS data –\nRevised Technical manual (Version – 2). Hyderabad, NRSC, ISRO. p. 35.\nSreenivas, K., Roy, P.S., (2008). Land use land cover classification of Orissa using multi-temporal IRS-\nP6 awifs data: A decision tree approach. International Journal of Applied Earth Observation and\nGeoinformation. Volume.10, IssueNo.2, Pages: 186-193.\n91",
+      "char_count": 2722
+    },
+    {
+      "page": 113,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 114,
+      "text": "Annexure I\nProject Directors Deputy Project Directors\n1 Dr Partha Sarathi Roy 1 Dr K Sreenivas\n2 Shri G Behera 2 Dr M S R Murthy\n3 Dr Y V N Krishna Murthy 3 Dr Y V S Murthy\n4 Dr V Raghav Swamy 4 Dr J R Sharma\n5 Dr P G Diwakar 5 Mrs Sai Veena Suresh\n6 Dr Ch Venkateswara Rao\nTechnical Guidance\nDr T Ravisankar\nFollowing members participated in this Long Term Study for various types of activities/teams mentioned here\nProject Activities/Teams\na Geo Rectification e External Quality Check\nb Geo-Database Creation & Organisation f FTP Server Support\nc Data Processing and Dissemination g Report Preparation\nd Pre Processing, Classification, Mapping h Web Dissemination\nMembers (Shri/Mrs/Dr)\n1 Anand S 30 Karnatak Harish 59 Ravishankar G\n2 Anant Rao 31 Kiran Chand T R 60 Rebecca Swarna A\n3 Anasuya T 32 Krishna Rao P V 61 Reddy Chandra Sekhar C\n4 Arul Raj M 33 Latha James 62 Reddy Sudhakar Ch\n5 Baba Saheb Hareef K 34 Lesslie A 63 Sachin\n6 Badrinath K V S 35 Mandal Swastika 64 Sahay Bhavana\n7 Behera Dhiroj Kumar 36 Modi Mohit 65 Sampath Kumar P\n8 Bhagawat Manjula 37 Mohammad Ali 66 Sarath Kumar V V\n9 Bhardwaj Ashutosh 38 Mondal Ajay 67 Sarma K K\n10 Bishwadeep Gharai 39 Murmu Preetitlata 68 Satyanarayana P\n11 Biswal Anima 40 Murthy K S 69 Saxena Manoj Raj\n12 Bothale Rajashree V 41 Murthy VSVSSSR 70 Seshadri Sekhar N\n13 Chakraborty Kasturi 42 Nikhil Raj Deep 71 Shankar Prasad T\n14 Chandan Goswami 43 Padma Rani G 72 Shantala Devi\n15 Das Prabir Kumar 44 Paliwal Rakesh 73 Sharma J R\n16 Das Pratibha T 45 Pathak Suparn 74 Singh Ronald\n17 Debnath Bijan 46 Porchelvan A 75 Srinivas R V N\n18 Dutta D 47 Porwal M C 76 Suchitra Devi H\n19 Fyzee M A 48 Prasad G 77 Sudhakar S\n20 Garg R D 49 Pujar Girish Shankar 78 Sujatha G\n21 Goswami Jonali 50 Rahpade Sushil Kumar 79 Suraj Reddy R\n22 Hakeem Abdul 51 Rajender C K 80 Tarik Mitran\n23 Handique Bijoy 52 Rajiv Kumar 81 Thammappa S S\n24 Hari Krishna 53 Ramadevi D 82 Tiwari Poonam S\n25 Hariesh P 54 Ramana K V 83 Trivedi Shivam\n26 Jaiswal Rajeev 55 Ramesh B 84 Verghese A O\n27 Janaki Ram Suresh G 56 Ramesh K S 85 Vinod Bothale\n28 Jonna S 57 Rao P V N 86 Vishwanatham T S\n29 Kameshwar Rao S V C 58 Ravikumar M V 87 Wadodkar Milind\n93",
+      "char_count": 2177
+    },
+    {
+      "page": 115,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 116,
+      "text": "Annexure II\nS.No LULC Class Description\nResidential areas, industries, airport and other impermeable surfaces\n1 Built-up land\ngenerated by anthropogenic activity.\nSeasonal Crop land with crops grown during June to November period\n2 Kharif crop land\nof agricultural calendar year.\nSeasonal Crop land with crops grown during November to April period\n3 Rabi crop land\nof agricultural calendar year.\nSeasonal Crop land with crops grown during April to June period of\n4 Zaid Crop land\nagricultural calendar year.\nLand with crops grown in more than one season specified above. This\n5 Double/Triple/annual crop land\nwill also include annual crops.\nAgricultural area in which crop is not grown during any part of the\n6 Current Fallow land\nseason of agricultural calendar year.\n7 Plantation / Orchard Trees which are artificially planted.\nThis category comprises of trees (>2m tall), which are predominantly\nremain green throughout the year. It includes both coniferous and\nEvergreen / Semi-evergreen\n8 tropical broadleaved evergreen species. Semi‐ evergreen is a woodland\nWoodland\ntype that includes a combination of evergreen and deciduous species\nwith the former dominating the canopy cover.\nThese are the woodland types that are predominantly composed of tree\n(>2m tall) species, which shed their leaves once a year. It may also\n9 Deciduous Woodland\ninclude tree clad area with tree cover lying outside the notified forest\nboundary areas that are herbaceous with a woody appearance\nLand covered with tree species (more than 2m tall) which are Evergreen\n10 Degraded Woodland\n/ Deciduous in nature with relatively decreased density of trees.\nAreas with seasonal or permanent water ponding (with or without\nvegetation) excluding the water bodies. These include ox-bow lakes,\n11 Littoral/Swamp/Mangroves\ntidal flat/mud flat, mangrove, salt marsh/marsh vegetation and other\nhydrophytic vegetation.\n12 Grassland Land Areas with seasonal or perennial grasses occur naturally.\nThese are the areas where woodlands are cleared and used for\n13 Shifting cultivation\ncultivation.\nThese are barren lands with nil or little vegetation cover and includes\n14 Wastelands areas like rocky areas, scrub lands, mining dumps, gullied lands, sand\ndunes, etc.\nThese are the areas with very high concentrations of salts usually\n15 Rann\nsourced from sea and occur near the sea coasts.\nThis represents the maximum water spread in a water body like lakes,\n16 Water Bodies – Maximum spread\ntanks, reservoirs, rivers, etc.\nThis represents the least water spread in a water body like lakes, tanks,\n17 Water Bodies – Minimum spread\nreservoirs, rivers, etc.\n18 Snow covered / Glacial areas Land under snow cover / ice, mostly permanent.\n95",
+      "char_count": 2701
+    },
+    {
+      "page": 117,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 118,
+      "text": " \nG\n\no\n\nl\n \nde\n \nn\n  \nJ\n\nu\n\nb\n \nil\n \ne\n\ne\n\n  5\n * *\nN e\na\ntional\nRe\nY\nm\nS\ne\np\na\na\nr\no\ns\nc e\no\nt\nf\ne\n&\nB r\nS\nE\nid\na\ne\ng\nr\ni\nt\nn\nn\nh\ng\nsing\nCentr\nnrsc\n1974 - 2024\nANNUAL LAND USE AND LAND COVER\nATLAS OF INDIA\nLand Use & Cover Mapping and Monitoring Division\nSoil Resources and Land Use Mapping and Monitoring Group\nNational Remote Sensing Centre\nRemote Sensing Applications Area\nIndian Space Research Organisation\nDept. of Space, Govt. of India\nNATIONAL REMOTE SENSING CENTRE\nBalanagar, Hyderabad - 500 037\nMARCH 2024",
+      "char_count": 556
+    }
+  ]
+}

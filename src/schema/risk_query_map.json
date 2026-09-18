@@ -16,17 +16,17 @@
   },
 
   "high_pesticide_intensity": {
-    "query": "integrated pest management effect on biodiversity and pollinators",
-    "topic_filter": ["human_impact", "biodiversity"],
-    "metric_filter": ["pesticide_intensity"],
-    "practice_filter": ["integrated_nutrient_management"]
+  "query": "integrated pest management pesticide reduction biodiversity pollinators",
+  "topic_filter": ["human_impact", "biodiversity"],
+  "metric_filter": ["pesticide_intensity"],
+  "practice_filter": null
   },
 
   "monoculture_land_use": {
-    "query": "crop diversification and intercropping effect on habitat diversity",
+    "query": "crop diversification intercropping monoculture habitat diversity agricultural land",
     "topic_filter": ["land_use", "biodiversity"],
     "metric_filter": ["agricultural_pct"],
-    "practice_filter": ["intercropping", "crop_diversification"]
+    "practice_filter": null
   },
 
   "water_stress": {
@@ -44,9 +44,9 @@
   },
 
   "high_disaster_exposure": {
-    "query": "landscape resilience practices to mitigate climatological disaster impact",
-    "topic_filter": ["climate", "land_use"],
-    "metric_filter": ["disaster_count"],
-    "practice_filter": ["agroforestry", "buffer_strips"]
+  "query": "landscape resilience agroforestry restoration drought flood climate disaster impacts",
+  "topic_filter": ["climate", "land_use"],
+  "metric_filter": ["disaster_count"],
+  "practice_filter": null
   }
 }
