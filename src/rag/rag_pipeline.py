@@ -7,13 +7,17 @@ from .prompt import SYSTEM_PROMPT, build_user_prompt
 class EcoSynapseRAG:
 
     def __init__(self):
-
         self.reasoning_engine = ReasoningEngine()
 
     def generate_evidence(self, risks, query, top_k=5):
 
+        # Generate multi-risk reasoning
         reasoning = self.reasoning_engine.analyze(risks)
 
+        # Build a retrieval query using:
+        # - original user query
+        # - recommended practices
+        # - affected environmental metrics
         evidence_query = (
             query
             + " "
@@ -22,10 +26,42 @@ class EcoSynapseRAG:
             + " ".join(reasoning["affected_metrics"])
         )
 
+        # Retrieve extra candidates so weak evidence can be filtered
+        candidate_k = max(top_k + 3, 8)
+
         evidence = retrieve(
             query=evidence_query,
-            top_k=top_k
+            top_k=candidate_k
         )
+
+        # Filter weak or non-substantive evidence
+        filtered_evidence = []
+
+        for chunk, score in evidence:
+
+            text = chunk.get("text", "").strip()
+
+            # Ignore extremely short chunks
+            if len(text) < 150:
+                continue
+
+            lower_text = text.lower()
+
+            # Ignore obvious structural / non-evidence content
+            weak_patterns = [
+                "table of contents",
+                "contents",
+                "document title",
+                "chapter contents",
+            ]
+
+            if any(pattern in lower_text for pattern in weak_patterns):
+                continue
+
+            filtered_evidence.append((chunk, score))
+
+        # Keep only the strongest valid evidence
+        evidence = filtered_evidence[:top_k]
 
         return reasoning, evidence
 
@@ -57,6 +93,7 @@ class EcoSynapseRAG:
             risks=risks
         )
 
+        # Do not generate an answer without scientific evidence
         if not package["evidence"]:
 
             return {
@@ -68,6 +105,7 @@ class EcoSynapseRAG:
                 "evidence": []
             }
 
+        # Generate grounded response using the LLM
         answer = llm_callable(
             system_prompt=package["system_prompt"],
             user_prompt=package["user_prompt"]

@@ -36,6 +36,9 @@ IMPORTANT RULES:
 
 10. Preserve source names and page numbers exactly as supplied.
 
+11. Evidence must support the specific recommendation or its stated ecological mechanism. Do not treat general evidence about biodiversity decline or conservation as direct evidence for a specific practice unless the retrieved text supports that practice or mechanism.
+
+12. Do not use document titles, table-of-contents entries, section headings, references, or bibliographic text as scientific evidence. If a retrieved chunk does not contain substantive evidence, do not cite it.
 Return your answer using this structure:
 
 Recommendation:
