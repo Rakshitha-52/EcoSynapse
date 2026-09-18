@@ -1,0 +1,908 @@
+{
+  "@type": "Dataset",
+  "identifier": "10.1038/s41597-020-0356-3",
+  "title": "Metadata record for: A database for global soil health assessment",
+  "relatedPublications": [],
+  "repositories": [
+    {
+      "name": "figshare",
+      "value": "https://doi.org/10.6084/m9.figshare.8292176.v8",
+      "@type": "DataCatalog"
+    }
+  ],
+  "assays": [
+    {
+      "measurementType": {
+        "annotationValue": "organic material",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000155",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "grain yield trait",
+        "termAccession": "http://purl.obolibrary.org/obo/TO_0000396",
+        "termSource": "PTO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "mass density of soil",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_09200005",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "concentration of carbon atom in soil",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_09000008",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil organic carbon sequestration rate",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "concentration of nitrogen atom in soil",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_09000017",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "phosphorus",
+        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_28659",
+        "termSource": "EFO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "potassium",
+        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_26216",
+        "termSource": "EFO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "pH measurement",
+        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0002354",
+        "termSource": "CHMO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil cation exchange capability",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "electrical conductivity",
+        "termAccession": "http://purl.obolibrary.org/obo/PATO_0001757",
+        "termSource": "MS",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil base saturation",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "aggregate stability",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "porosity of soil",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_09200004",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil penetration resistance",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil infiltration rate",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "field saturated hydraulic conductivity",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil erosion",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000706",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "flood",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000710",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil nutrient leaching",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "temperature of soil",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_09200012",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "soil water content",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "available water holding capacity",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "parasitic weed",
+        "termAccession": "http://purl.obolibrary.org/obo/TO_0000444",
+        "termSource": "PTO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "diseases of the cropland",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "pests",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "Lumbricus terrestris",
+        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_6398",
+        "termSource": "ERO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "Arthropoda",
+        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C77917",
+        "termSource": "NCIT",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "Nematoda",
+        "termAccession": "http://purl.obolibrary.org/obo/EO_0007337",
+        "termSource": "EFO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "Bacteria",
+        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_2",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "Fungi",
+        "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "mycorrhiza",
+        "termAccession": "http://purl.obolibrary.org/obo/BTO_0000893",
+        "termSource": "BTO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "enzyme activity",
+        "termAccession": "http://purl.org/obo/owl/GO#GO_0003824",
+        "termSource": "NPO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "dinitrogen oxide",
+        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_17045",
+        "termSource": "CHEBI",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "carbon dioxide",
+        "termAccession": "http://purl.obolibrary.org/obo/CHEBI_16526",
+        "termSource": "CHEBI",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "methane gas emission process",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_03000094",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "factors": [
+    {
+      "name": "conservation management method",
+      "type": {
+        "annotationValue": "conservation-focused active ecosystem management process",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01001171",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "studyCharacteristics": {
+    "organism": [],
+    "environmentType": [
+      {
+        "annotationValue": "soil environment",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01001044",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      }
+    ],
+    "geographicalLocation": [
+      {
+        "annotationValue": "United States of America",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002459",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Canada",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002560",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Germany",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002646",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Brazil",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002828",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "French Republic",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002940",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Italy",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002650",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Sweden",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002729",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Kingdom of Denmark",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002635",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Nigeria",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000912",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Argentina",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002928",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Kenya",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001101",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Zimbabwe",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001106",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "China",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002845",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "South Korea",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002802",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Kingdom of Spain",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000591",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Kingdom of the Netherlands",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001549",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Greece",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002945",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Kingdom of Norway",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002699",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "New Zealand",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000469",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Russia",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002721",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Australia",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000463",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Ghana",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000908",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Malawi",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001105",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Benin",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000904",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Zambia",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001107",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Cameroon",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001093",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Peru",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002932",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Indonesia",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00003727",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "The Philippines",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00004525",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Rwanda",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001087",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Uganda",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001102",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Togo",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000915",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Guinea",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000909",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Tanzania",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00001103",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Turkey",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00000558",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Moldova",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00003897",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "England",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002641",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "India",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002839",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Costa Rica",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002901",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Switzerland",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002941",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Bangladesh",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00003750",
+        "termSource": "GAZ",
+        "@type": "Place"
+      },
+      {
+        "annotationValue": "Poland",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_00002939",
+        "termSource": "GAZ",
+        "@type": "Place"
+      }
+    ],
+    "@type": "variableMeasured"
+  },
+  "ontologySourceReferences": {
+    "EFO": {
+      "name": "EFO",
+      "description": "Experimental Factor Ontology",
+      "file": "http://data.bioontology.org/ontologies/EFO",
+      "version": "2.105",
+      "@type": "DefinedTermSet"
+    },
+    "NPO": {
+      "name": "NPO",
+      "description": "NanoParticle Ontology",
+      "file": "http://data.bioontology.org/ontologies/NPO",
+      "version": "2011-12-08 (yyyy-mm-dd)",
+      "@type": "DefinedTermSet"
+    },
+    "ENVO": {
+      "name": "ENVO",
+      "description": "Environment Ontology",
+      "file": "http://data.bioontology.org/ontologies/ENVO",
+      "version": null,
+      "@type": "DefinedTermSet"
+    },
+    "ERO": {
+      "name": "ERO",
+      "description": "Eagle-I Research Resource Ontology",
+      "file": "http://data.bioontology.org/ontologies/ERO",
+      "version": "2013-08-02",
+      "@type": "DefinedTermSet"
+    },
+    "GAZ": {
+      "name": "GAZ",
+      "description": "Gazetteer",
+      "file": "http://data.bioontology.org/ontologies/GAZ",
+      "version": "$Revision: 1.512 $",
+      "@type": "DefinedTermSet"
+    },
+    "BTO": {
+      "name": "BTO",
+      "description": "BRENDA Tissue and Enzyme Source Ontology",
+      "file": "http://data.bioontology.org/ontologies/BTO",
+      "version": "unknown",
+      "@type": "DefinedTermSet"
+    },
+    "CHEBI": {
+      "name": "CHEBI",
+      "description": "Chemical Entities of Biological Interest Ontology",
+      "file": "http://data.bioontology.org/ontologies/CHEBI",
+      "version": "172",
+      "@type": "DefinedTermSet"
+    },
+    "OBI": {
+      "name": "OBI",
+      "description": "Ontology for Biomedical Investigations",
+      "file": "http://data.bioontology.org/ontologies/OBI",
+      "version": "2018-08-27",
+      "@type": "DefinedTermSet"
+    },
+    "PTO": {
+      "name": "PTO",
+      "description": "Plant Trait Ontology",
+      "file": "http://data.bioontology.org/ontologies/PTO",
+      "version": "September 2018",
+      "@type": "DefinedTermSet"
+    },
+    "NCIT": {
+      "name": "NCIT",
+      "description": "National Cancer Institute Thesaurus",
+      "file": "http://data.bioontology.org/ontologies/NCIT",
+      "version": "20.01d",
+      "@type": "DefinedTermSet"
+    },
+    "CHMO": {
+      "name": "CHMO",
+      "description": "Chemical Methods Ontology",
+      "file": "http://data.bioontology.org/ontologies/CHMO",
+      "version": "releases/2014-11-20",
+      "@type": "DefinedTermSet"
+    },
+    "MS": {
+      "name": "MS",
+      "description": "Mass Spectrometry Ontology",
+      "file": "http://data.bioontology.org/ontologies/MS",
+      "version": "4.1.22",
+      "@type": "DefinedTermSet"
+    },
+    "@type": "CategoryCodeSet"
+  },
+  "comments": [
+    {
+      "name": "Created With Configuration",
+      "value": "1.0",
+      "@type": "SoftwareApplication"
+    },
+    {
+      "name": "Data Descriptor License",
+      "value": "CC-BY-4.0",
+      "@type": "CreativeWork"
+    }
+  ]
+}

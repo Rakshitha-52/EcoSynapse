@@ -1,0 +1,52 @@
+{
+  "_comment": "Each risk flag the reasoning engine can raise maps to a RAG query string, plus which topic/metric/practice tags the retriever should filter to first. Add new risks here as Phase 4 grows the reasoning engine — this file is the seam between structured data and RAG evidence described in Phase 2.",
+
+  "low_organic_carbon": {
+    "query": "cover crops and organic amendments effect on soil organic carbon",
+    "topic_filter": ["soil_health"],
+    "metric_filter": ["organic_carbon"],
+    "practice_filter": ["cover_crops", "organic_amendments"]
+  },
+
+  "low_forest_cover": {
+    "query": "reforestation and agroforestry effects on forest cover and habitat connectivity",
+    "topic_filter": ["land_use", "biodiversity"],
+    "metric_filter": ["forest_pct"],
+    "practice_filter": ["agroforestry", "native_reforestation"]
+  },
+
+  "high_pesticide_intensity": {
+    "query": "integrated pest management effect on biodiversity and pollinators",
+    "topic_filter": ["human_impact", "biodiversity"],
+    "metric_filter": ["pesticide_intensity"],
+    "practice_filter": ["integrated_nutrient_management"]
+  },
+
+  "monoculture_land_use": {
+    "query": "crop diversification and intercropping effect on habitat diversity",
+    "topic_filter": ["land_use", "biodiversity"],
+    "metric_filter": ["agricultural_pct"],
+    "practice_filter": ["intercropping", "crop_diversification"]
+  },
+
+  "water_stress": {
+    "query": "drought resilient practices and soil water retention under low rainfall",
+    "topic_filter": ["climate", "soil_health"],
+    "metric_filter": ["rainfall", "freshwater_pc"],
+    "practice_filter": ["cover_crops", "reduced_tillage"]
+  },
+
+  "high_extinction_risk": {
+    "query": "habitat restoration effect on threatened species recovery",
+    "topic_filter": ["biodiversity"],
+    "metric_filter": ["extinction_risk_count", "endemic_count"],
+    "practice_filter": ["native_reforestation", "buffer_strips"]
+  },
+
+  "high_disaster_exposure": {
+    "query": "landscape resilience practices to mitigate climatological disaster impact",
+    "topic_filter": ["climate", "land_use"],
+    "metric_filter": ["disaster_count"],
+    "practice_filter": ["agroforestry", "buffer_strips"]
+  }
+}

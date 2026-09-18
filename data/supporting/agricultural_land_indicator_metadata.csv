@@ -1,0 +1,4 @@
+﻿Domain Code,Domain,Area Code (M49),Area,Element Code,Element,Item Code,Item,Year Code,Year,Unit,Value,Flag,Flag Description,Note
+"RL","Land Use","356","India","72151","Carbon stock in living biomass","6646","Forest land","2025","2025","million t","3327.09","X","Value from external organization",""
+"RL","Land Use","356","India","7210","Share in Forest land","6717","Naturally regenerating forest","2025","2025","%","81.48","E","Estimated value",""
+"RL","Land Use","356","India","7210","Share in Forest land","6716","Planted Forest","2025","2025","%","18.52","E","Estimated value",""

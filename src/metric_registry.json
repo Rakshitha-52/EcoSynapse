@@ -1,0 +1,36 @@
+{
+  "_comment": "Maps raw CSV column names to canonical metric names from vocab.py. Every lookup in the reasoning engine goes through this registry, never a raw column name directly.",
+
+  "darukaa_land_reference.csv": {
+    "key_column": "iso3",
+    "columns": {
+      "agricultural_land_pct":            "agricultural_pct",
+      "agricultural_land_ha":             "agricultural_pct",
+      "forest_land_pct":                  "forest_pct",
+      "total_species_count":              "species_count",
+      "endemic_species_small_range":      "endemic_count",
+      "species_high_extinction_risk":     "extinction_risk_count",
+      "pesticide_use_per_cropland_kg_ha": "pesticide_intensity",
+      "co2_landuse_change_t":             "co2_landuse",
+      "co2_fossil_industry_t":            "co2_fossil",
+      "transport_ghg_emissions_mtco2e":   "ghg_transport",
+      "hazardous_waste_generated_kt":     "hazardous_waste",
+      "so2_emissions_per_capita":         "so2_pc",
+      "nox_emissions_per_capita":         "nox_pc",
+      "freshwater_resources_per_capita":  "freshwater_pc",
+      "climatological_disasters_count":   "disaster_count"
+    }
+  },
+
+  "india_state_species_richness.csv": {
+    "key_column": "state",
+    "columns": {
+      "species_richness": "regional_species_richness"
+    }
+  },
+
+  "_unmapped_rag_only_metrics": {
+    "_comment": "These metrics have no CSV column at all — they exist only as RAG evidence. Listed here so it's explicit they were a deliberate scope decision, not an oversight.",
+    "metrics": ["organic_carbon", "soil_ph", "soil_erosion", "rainfall", "temperature"]
+  }
+}
