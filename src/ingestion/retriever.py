@@ -83,10 +83,23 @@ def retrieve(query: str, topic_filter: list = None, metric_filter: list = None,
 
     scores = candidate_vecs @ query_vec
 
+
+    def evidence_bonus(claim_type):
+        if claim_type == "practice_evidence":
+            return 0.05
+        elif claim_type == "quantified":
+            return 0.03
+        return 0.0
+
+
     ranked = sorted(
         zip(candidates, scores),
-        key=lambda pair: (pair[0]["claim_type"] != "practice_evidence", -pair[1])
+        key=lambda pair: (
+            pair[1] + evidence_bonus(pair[0]["claim_type"])
+        ),
+        reverse=True
     )
+
     return ranked[:top_k]
 
 
