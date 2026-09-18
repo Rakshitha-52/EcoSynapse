@@ -159,8 +159,13 @@ if user_query:
                 "Analyzing environmental signals and scientific evidence..."
             ):
 
+                retrieval_query = conversation_result.get(
+                    "retrieval_query",
+                    user_query
+                )
+
                 result = st.session_state.rag.answer(
-                    query=user_query,
+                    query=retrieval_query,
                     risks=risks,
                     llm_callable=st.session_state.llm.generate
                 )
