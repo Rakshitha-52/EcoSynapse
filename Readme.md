@@ -17,6 +17,14 @@ A Streamlit conversational interface
 
 The goal is to behave like an AI environmental scientist rather than a generic chatbot.
 
+## 🚀 Live Demo
+
+[Launch EcoSynapse](https://ecosynapse-ebi4fotak5ppva7gfsvadh.streamlit.app/)
+
+## 💻 GitHub Repository
+
+[View Source Code](https://github.com/Rakshitha-52/EcoSynapse)
+
 🚀 Key Features
 1. Evidence-Grounded Recommendations
 
