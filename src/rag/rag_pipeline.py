@@ -9,61 +9,121 @@ class EcoSynapseRAG:
     def __init__(self):
         self.reasoning_engine = ReasoningEngine()
 
+    # --------------------------------------------------
+    # Evidence quality checks
+    # --------------------------------------------------
+
+    def _is_strong_evidence(self, chunk):
+
+        text = chunk.get("text", "").strip()
+
+        if len(text) < 150:
+            return False
+
+        lower_text = text.lower()
+
+        weak_patterns = [
+            "table of contents",
+            "contents",
+            "chapter contents",
+            "list of contents",
+            "acronyms",
+            "abbreviations",
+            "references",
+            "bibliography",
+            "document structure",
+        ]
+
+        if any(pattern in lower_text for pattern in weak_patterns):
+            return False
+
+        return True
+
+    def _evidence_score(self, chunk, similarity):
+
+        claim_type = chunk.get("claim_type", "")
+
+        bonus = 0.0
+
+        if claim_type == "practice_evidence":
+            bonus += 0.08
+
+        elif claim_type == "quantified":
+            bonus += 0.05
+
+        elif claim_type == "background":
+            bonus += 0.0
+
+        return float(similarity) + bonus
+
+    # --------------------------------------------------
+    # Retrieve scientific evidence
+    # --------------------------------------------------
+
     def generate_evidence(self, risks, query, top_k=5):
 
-        # Generate multi-risk reasoning
         reasoning = self.reasoning_engine.analyze(risks)
 
-        # Build a retrieval query using:
-        # - original user query
-        # - recommended practices
-        # - affected environmental metrics
+        practices = reasoning.get(
+            "recommended_practices",
+            []
+        )
+
+        metrics = reasoning.get(
+            "affected_metrics",
+            []
+        )
+
+        # Build a retrieval query using the actual
+        # environmental context + reasoning vocabulary.
         evidence_query = (
             query
             + " "
-            + " ".join(reasoning["recommended_practices"])
+            + " ".join(practices)
             + " "
-            + " ".join(reasoning["affected_metrics"])
+            + " ".join(metrics)
         )
 
-        # Retrieve extra candidates so weak evidence can be filtered
-        candidate_k = max(top_k + 3, 8)
+        # Retrieve more candidates than we finally display.
+        candidate_k = max(top_k + 8, 15)
 
         evidence = retrieve(
             query=evidence_query,
             top_k=candidate_k
         )
 
-        # Filter weak or non-substantive evidence
-        filtered_evidence = []
+        strong_evidence = []
 
-        for chunk, score in evidence:
+        for chunk, similarity in evidence:
 
-            text = chunk.get("text", "").strip()
-
-            # Ignore extremely short chunks
-            if len(text) < 150:
+            if not self._is_strong_evidence(chunk):
                 continue
 
-            lower_text = text.lower()
+            score = self._evidence_score(
+                chunk,
+                similarity
+            )
 
-            # Ignore obvious structural / non-evidence content
-            weak_patterns = [
-                "table of contents",
-                "contents",
-                "document title",
-                "chapter contents",
-            ]
+            strong_evidence.append(
+                (chunk, similarity, score)
+            )
 
-            if any(pattern in lower_text for pattern in weak_patterns):
-                continue
+        # Rank by semantic similarity + evidence quality.
+        strong_evidence.sort(
+            key=lambda item: item[2],
+            reverse=True
+        )
 
-            filtered_evidence.append((chunk, score))
+        final_evidence = [
+            (chunk, similarity)
+            for chunk, similarity, _ in strong_evidence[:top_k]
+        ]
 
-        # Keep only the strongest valid evidence
-        evidence = filtered_evidence[:top_k]
+        return reasoning, final_evidence
 
-        return reasoning, evidence
+    # --------------------------------------------------
+    # Build RAG prompt
+    # --------------------------------------------------
 
     def build_prompt(self, query, risks, top_k=5):
 
@@ -86,30 +146,205 @@ class EcoSynapseRAG:
             "evidence": evidence
         }
 
-    def answer(self, query, risks, llm_callable):
+    # --------------------------------------------------
+    # Deterministic fallback
+    # --------------------------------------------------
+
+    def _build_fallback_answer(
+        self,
+        reasoning,
+        evidence
+    ):
+
+        practices = reasoning.get(
+            "recommended_practices",
+            []
+        )
+
+        metrics = reasoning.get(
+            "affected_metrics",
+            []
+        )
+
+        reasoning_text = reasoning.get(
+            "reasoning",
+            ""
+        )
+
+        answer_parts = []
+
+        # --------------------------------------------------
+        # Recommendation
+        # --------------------------------------------------
+
+        if practices:
+
+            practice_text = ", ".join(
+                practice.replace("_", " ")
+                for practice in practices
+            )
+
+            answer_parts.append(
+                "### Recommendation\n"
+                f"Consider the following practices: "
+                f"{practice_text}."
+            )
+
+        # --------------------------------------------------
+        # Why
+        # --------------------------------------------------
+
+        if reasoning_text:
+
+            answer_parts.append(
+                "### Why\n"
+                f"{reasoning_text}"
+            )
+
+        # --------------------------------------------------
+        # Impacted metrics
+        # --------------------------------------------------
+
+        if metrics:
+
+            metric_text = ", ".join(
+                metric.replace("_", " ")
+                for metric in metrics
+            )
+
+            answer_parts.append(
+                "### Impacted metrics\n"
+                f"{metric_text}"
+            )
+
+        # --------------------------------------------------
+        # Scientific evidence
+        # --------------------------------------------------
+
+        if evidence:
+
+            evidence_lines = []
+
+            for chunk, similarity in evidence:
+
+                source = chunk.get(
+                    "source",
+                    "Unknown source"
+                )
+
+                document = chunk.get(
+                    "document",
+                    "Unknown document"
+                )
+
+                page = chunk.get(
+                    "page",
+                    "Unknown page"
+                )
+
+                text = chunk.get(
+                    "text",
+                    ""
+                ).strip()
+
+                # Keep the fallback readable.
+                if len(text) > 650:
+
+                    text = (
+                        text[:650]
+                        .rsplit(" ", 1)[0]
+                        + "..."
+                    )
+
+                evidence_lines.append(
+                    f"- **{source}, page {page}** "
+                    f"({document}): {text}"
+                )
+
+            answer_parts.append(
+                "### Scientific evidence\n"
+                + "\n".join(evidence_lines)
+            )
+
+            answer_parts.append(
+                "### Evidence limitation\n"
+                "The language model is temporarily unavailable, "
+                "so this response is generated directly from the "
+                "EcoSynapse reasoning engine and retrieved scientific "
+                "evidence. No additional claims have been generated "
+                "beyond the available evidence."
+            )
+
+        else:
+
+            answer_parts.append(
+                "### Evidence limitation\n"
+                "The EcoSynapse knowledge base did not return "
+                "sufficient substantive scientific evidence to "
+                "support a grounded recommendation."
+            )
+
+        return "\n\n".join(answer_parts)
+
+    # --------------------------------------------------
+    # Generate final answer
+    # --------------------------------------------------
+
+    def answer(
+        self,
+        query,
+        risks,
+        llm_callable
+    ):
 
         package = self.build_prompt(
             query=query,
             risks=risks
         )
 
-        # Do not generate an answer without scientific evidence
         if not package["evidence"]:
 
             return {
                 "answer": (
-                    "I don't have sufficient scientific evidence in "
-                    "the knowledge base to support a recommendation."
+                    "I don't have sufficient scientific evidence "
+                    "in the knowledge base to support a recommendation."
                 ),
                 "reasoning": package["reasoning"],
                 "evidence": []
             }
 
-        # Generate grounded response using the LLM
-        answer = llm_callable(
-            system_prompt=package["system_prompt"],
-            user_prompt=package["user_prompt"]
-        )
+        try:
+
+            answer = llm_callable(
+                system_prompt=package["system_prompt"],
+                user_prompt=package["user_prompt"]
+            )
+
+            # --------------------------------------------------
+            # Gemini unavailable / quota exhausted
+            # --------------------------------------------------
+
+            if (
+                not answer
+                or "RESOURCE_EXHAUSTED" in answer
+                or "API error:" in answer
+                or "language model could not generate"
+                in answer.lower()
+                or "temporarily unavailable"
+                in answer.lower()
+            ):
+
+                answer = self._build_fallback_answer(
+                    reasoning=package["reasoning"],
+                    evidence=package["evidence"]
+                )
+
+        except Exception:
+
+            answer = self._build_fallback_answer(
+                reasoning=package["reasoning"],
+                evidence=package["evidence"]
+            )
 
         return {
             "answer": answer,
