@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install flake8
+
+      - name: Lint (non-blocking — reports issues without failing the build)
+        run: flake8 src app --max-line-length=120 --exit-zero
+
+      - name: Run memory tests
+        run: python -m tests.test_memory
+
+      - name: Run conversation tests
+        run: python -m tests.test_conversation
+
+      - name: Run reasoning + retrieval tests
+        run: python -m tests.test_reasoning_retrieval
+
+      - name: Run RAG pipeline tests
+        run: python -m tests.test_rag_pipeline
+
+      - name: Run Gemini RAG tests (skipped if no API key configured)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "GEMINI_API_KEY secret not set in this repo — skipping Gemini-dependent test."
+            echo "Add it under Settings > Secrets and variables > Actions to enable this step."
+          else
+            python -m tests.test_gemini_rag
+          fi
